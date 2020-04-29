@@ -1,0 +1,4430 @@
+{
+    "data" : {
+      "connections" : [
+        {
+          "componentId" : "a4q-vw-Sp9",
+          "connectionId" : "jpk-yD-W9I",
+          "primaryArtboard" : "0V1-lK-p7o",
+          "secondaryArtboard" : "sm3-rv-HxY",
+          "transition" : {
+            "duration" : 0.34999999999999998,
+            "timingFunction" : {
+              "timingCurveCP1" : {
+                "x" : 0.75,
+                "y" : 0
+              },
+              "timingCurveCP2" : {
+                "x" : 0.25,
+                "y" : 1
+              },
+              "timingType" : "custom"
+            },
+            "transitionTypeString" : "slideFromRight"
+          },
+          "transitionTypeString" : "push"
+        }
+      ],
+      "localizations" : {
+        "configuration" : {
+          "baseLanguage" : "en",
+          "languages" : [
+            "en"
+          ],
+          "localizationEnabled" : false
+        },
+        "localizations" : [
+          {
+            "components" : [
+              {
+                "componentId" : "shV-g4-LNE",
+                "strings" : {
+                  "en" : "Spacebook"
+                }
+              },
+              {
+                "componentId" : "0iR-Me-K6I",
+                "strings" : {
+                  "en" : "Conquer the stars\nfrom behind the screen."
+                }
+              },
+              {
+                "componentId" : "kJJ-Hy-0aZ",
+                "strings" : {
+                  "en" : "SIGN UP"
+                }
+              },
+              {
+                "componentId" : "a4q-vw-Sp9",
+                "strings" : {
+                  "en" : "LOG IN"
+                }
+              },
+              {
+                "componentId" : "51e-Ox-Y3C",
+                "strings" : {
+                  "en" : "© 2050 Supernova Studio"
+                }
+              }
+            ],
+            "screenId" : "0V1-lK-p7o",
+            "screenName" : "Welcome"
+          },
+          {
+            "components" : [
+              {
+                "componentId" : "8oJ-rn-Y9O",
+                "strings" : {
+                  "en" : "Log in"
+                }
+              },
+              {
+                "componentId" : "wcQ-ch-KR8",
+                "strings" : {
+                  "en" : "Welcome back.\nThe galaxy awaits you."
+                }
+              },
+              {
+                "componentId" : "oiz-Rm-4aG",
+                "strings" : {
+                  "en" : "Your nickname"
+                }
+              },
+              {
+                "componentId" : "UD7-xl-u6L",
+                "strings" : {
+                  "en" : "Your password"
+                }
+              },
+              {
+                "componentId" : "xgr-0U-Y5t",
+                "strings" : {
+                  "en" : "LOG IN"
+                }
+              },
+              {
+                "componentId" : "gFA-Vq-841",
+                "strings" : {
+                  "en" : "Forgot your password?"
+                }
+              }
+            ],
+            "screenId" : "sm3-rv-HxY",
+            "screenName" : "Login"
+          }
+        ]
+      },
+      "screens" : [
+        {
+          "animations" : [
+            {
+              "animationGroupId" : "a7Q-9y-OWO",
+              "elements" : [
+                {
+                  "animatedProperties" : [
+                    {
+                      "animatedProperty" : "translate.y",
+                      "animationPropertyId" : "d0P-dy-6nm",
+                      "animationType" : "timeBased",
+                      "autoreverse" : false,
+                      "isEnabled" : true,
+                      "keyframes" : [
+                        {
+                          "animationKeyframeId" : "9ZV-pC-62P",
+                          "animationValue" : {
+                            "animationValueType" : "double",
+                            "endValue" : 300
+                          },
+                          "isEnabled" : true,
+                          "time" : 0
+                        },
+                        {
+                          "animationKeyframeId" : "aIT-1m-VKh",
+                          "animationValue" : {
+                            "animationValueType" : "double",
+                            "endValue" : 0
+                          },
+                          "isEnabled" : true,
+                          "time" : 0.85000000000000009
+                        }
+                      ],
+                      "repeatCount" : 0,
+                      "timingFunction" : {
+                        "timingCurveCP1" : {
+                          "x" : 0.28999999999999998,
+                          "y" : 0.87235440340909087
+                        },
+                        "timingCurveCP2" : {
+                          "x" : 1,
+                          "y" : 1
+                        },
+                        "timingType" : "custom"
+                      }
+                    },
+                    {
+                      "animatedProperty" : "opacity",
+                      "animationPropertyId" : "7bH-iV-BNu",
+                      "animationType" : "timeBased",
+                      "autoreverse" : false,
+                      "isEnabled" : true,
+                      "keyframes" : [
+                        {
+                          "animationKeyframeId" : "laV-B9-FBL",
+                          "animationValue" : {
+                            "animationValueType" : "double",
+                            "endValue" : 0
+                          },
+                          "isEnabled" : true,
+                          "time" : 0
+                        },
+                        {
+                          "animationKeyframeId" : "UAA-O0-HBy",
+                          "animationValue" : {
+                            "animationValueType" : "double",
+                            "endValue" : 1
+                          },
+                          "isEnabled" : true,
+                          "time" : 0.34999999999999998
+                        }
+                      ],
+                      "repeatCount" : 0,
+                      "timingFunction" : {
+                        "timingCurveCP1" : {
+                          "x" : 0.41999999999999998,
+                          "y" : 0
+                        },
+                        "timingCurveCP2" : {
+                          "x" : 0.57999999999999996,
+                          "y" : 1
+                        },
+                        "timingType" : "custom"
+                      }
+                    },
+                    {
+                      "animatedProperty" : "rotate.z",
+                      "animationPropertyId" : "own-B1-8HU",
+                      "animationType" : "timeBased",
+                      "autoreverse" : false,
+                      "isEnabled" : true,
+                      "keyframes" : [
+                        {
+                          "animationKeyframeId" : "7ok-jp-DNv",
+                          "animationValue" : {
+                            "animationValueType" : "double",
+                            "endValue" : -45
+                          },
+                          "isEnabled" : true,
+                          "time" : 0
+                        },
+                        {
+                          "animationKeyframeId" : "Oft-OE-0Ho",
+                          "animationValue" : {
+                            "animationValueType" : "double",
+                            "endValue" : -45
+                          },
+                          "isEnabled" : true,
+                          "time" : 0.69999999999999996
+                        },
+                        {
+                          "animationKeyframeId" : "EHY-jy-YfE",
+                          "animationValue" : {
+                            "animationValueType" : "double",
+                            "endValue" : 0
+                          },
+                          "isEnabled" : true,
+                          "time" : 1
+                        }
+                      ],
+                      "repeatCount" : 0,
+                      "timingFunction" : {
+                        "timingCurveCP1" : {
+                          "x" : 0.41999999999999998,
+                          "y" : 0
+                        },
+                        "timingCurveCP2" : {
+                          "x" : 0.57999999999999996,
+                          "y" : 1
+                        },
+                        "timingType" : "custom"
+                      }
+                    }
+                  ],
+                  "animationAnchor" : "center",
+                  "animationElementId" : "k42-KY-qlq",
+                  "animationFillMode" : "removed",
+                  "componentId" : "5Be-Vz-8Hl",
+                  "isEnabled" : true
+                },
+                {
+                  "animatedProperties" : [
+                    {
+                      "animatedProperty" : "opacity",
+                      "animationPropertyId" : "H2y-ws-PiT",
+                      "animationType" : "timeBased",
+                      "autoreverse" : false,
+                      "isEnabled" : true,
+                      "keyframes" : [
+                        {
+                          "animationKeyframeId" : "iEh-YK-J2O",
+                          "animationValue" : {
+                            "animationValueType" : "double",
+                            "endValue" : 0.29999999999999999
+                          },
+                          "isEnabled" : true,
+                          "time" : 0
+                        },
+                        {
+                          "animationKeyframeId" : "qeA-De-1qg",
+                          "animationValue" : {
+                            "animationValueType" : "double",
+                            "endValue" : 1
+                          },
+                          "isEnabled" : true,
+                          "time" : 0.84999999999999998
+                        }
+                      ],
+                      "repeatCount" : 0,
+                      "timingFunction" : {
+                        "timingCurveCP1" : {
+                          "x" : 0.41999999999999998,
+                          "y" : 0
+                        },
+                        "timingCurveCP2" : {
+                          "x" : 0.57999999999999996,
+                          "y" : 1
+                        },
+                        "timingType" : "easeInOut"
+                      }
+                    }
+                  ],
+                  "animationAnchor" : "center",
+                  "animationElementId" : "S0G-BV-HSq",
+                  "animationFillMode" : "removed",
+                  "componentId" : "a4q-vw-Sp9",
+                  "isEnabled" : true
+                }
+              ],
+              "isEnabled" : true,
+              "triggerType" : "onLoad"
+            }
+          ],
+          "artboardId" : "0V1-lK-p7o",
+          "canvasPositionX" : -367.60140991210938,
+          "canvasPositionY" : -222.57035827636719,
+          "codeClassName" : "Welcome",
+          "controllerName" : "Welcome",
+          "isContentAllowedUnderNavigationBar" : true,
+          "isContentAllowedUnderTabBar" : true,
+          "isInitialController" : true,
+          "isNavigationBarHidden" : false,
+          "isStatusBarHidden" : true,
+          "isTabBarHidden" : false,
+          "navigationBarLeftItems" : [
+  
+          ],
+          "navigationBarRightItems" : [
+  
+          ],
+          "navigationTitleImageStorage" : {
+  
+          },
+          "navigationTitleStorage" : {
+            "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+            "font" : {
+              "fontFamily" : "",
+              "fontName" : "",
+              "nsFontName" : "",
+              "nsFontSize" : 12
+            },
+            "isAttributed" : false,
+            "kern" : 0,
+            "lineHeight" : -1,
+            "localization" : {
+              "strings" : {
+  
+              }
+            },
+            "paragraphSpacing" : 0,
+            "textAlignmentType" : 0,
+            "textAttributes" : [
+  
+            ],
+            "textColor" : {
+              "alpha" : 1,
+              "blue" : 0,
+              "green" : 0,
+              "red" : 0
+            }
+          },
+          "objectId" : "BE015124-F437-4B5E-98C7-A07AAC9595F0",
+          "order" : 0,
+          "originalSize" : {
+            "height" : 667,
+            "width" : 375
+          },
+          "previewImageId" : "tnCOzUBJRDOj63ESXFBz",
+          "rootComponent" : {
+            "action" : {
+              "actionSheet" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "actionType" : "none",
+              "alert" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "pickerTexts" : [
+                "Option 1",
+                "Option 2"
+              ],
+              "urlToOpen" : ""
+            },
+            "alpha" : {
+              "storage" : 1
+            },
+            "backgroundColor" : {
+              "alpha" : 1,
+              "blue" : 1,
+              "green" : 1,
+              "red" : 1
+            },
+            "backgroundGradient" : {
+              "elipseLength" : 0,
+              "from" : {
+                "x" : 0.31089275100955838,
+                "y" : 1.0982701148167719
+              },
+              "gradientType" : 0,
+              "stops" : [
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 0.38431370258331299,
+                    "green" : 0.51764708757400513,
+                    "red" : 0.96862751245498657
+                  },
+                  "position" : 0
+                },
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 0.54901957511901855,
+                    "green" : 0.10588239878416061,
+                    "red" : 0.54509812593460083
+                  },
+                  "position" : 1
+                }
+              ],
+              "to" : {
+                "x" : 0.68910724899044162,
+                "y" : -0.098270114816772419
+              }
+            },
+            "componentId" : "u8u-Bz-3jb",
+            "componentTypeString" : "view:plain",
+            "contentInsets" : {
+              "bottom" : 0,
+              "left" : 0,
+              "right" : 0,
+              "top" : 0
+            },
+            "fixedRadius" : {
+              "storage" : 0
+            },
+            "isHidden" : false,
+            "layout" : {
+              "constraints" : [
+  
+              ],
+              "frame" : {
+                "constrainProportions" : false,
+                "height" : 667,
+                "width" : 375,
+                "x" : 0,
+                "y" : 0
+              },
+              "sizing" : {
+                "mask" : [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "name" : "Welcome",
+            "originId" : "BE015124-F437-4B5E-98C7-A07AAC9595F0",
+            "postImportMetadata" : {
+  
+            },
+            "rotation" : 0,
+            "scrollIsBouncing" : true,
+            "scrollIsDirectionLockEnabled" : true,
+            "scrollIsPaging" : true,
+            "scrollIsScrolling" : true,
+            "scrollIsShowingHorizontalIndicator" : false,
+            "scrollIsShowingVerticalIndicator" : true,
+            "stackAlignment" : "center",
+            "stackAxis" : "horizontal",
+            "stackDistribution" : "equalSpacing",
+            "stackSpacing" : 0,
+            "subcomponents" : [
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 0,
+                  "blue" : 0,
+                  "green" : 0,
+                  "red" : 0
+                },
+                "componentId" : "5Be-Vz-8Hl",
+                "componentTypeString" : "imageView",
+                "contentModeString" : "center",
+                "fixedRadius" : {
+                  "storage" : 0
+                },
+                "imageStorage" : {
+                  "assetId" : "8XUHjET12pfvMhqHcCCb"
+                },
+                "isHidden" : false,
+                "isVectorOrigin" : true,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 120,
+                    "width" : 120,
+                    "x" : 128,
+                    "y" : 100
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      0,
+                      0,
+                      1,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                "name" : "logo",
+                "originId" : "3PLFCOTI-OEI1-LSDB-G5XL-PILAHJSNOWHC",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "shadow" : {
+                  "color" : {
+                    "alpha" : 0.20000000298023224,
+                    "blue" : 0,
+                    "green" : 0,
+                    "red" : 0
+                  },
+                  "isEnabled" : true,
+                  "offsetX" : 0,
+                  "offsetY" : 20,
+                  "opacity" : 0,
+                  "radius" : 25,
+                  "spread" : 0
+                },
+                "subcomponents" : [
+  
+                ]
+              },
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 0,
+                  "blue" : 0,
+                  "green" : 0,
+                  "red" : 0
+                },
+                "componentId" : "shV-g4-LNE",
+                "componentTypeString" : "label",
+                "fixedRadius" : {
+                  "storage" : 0
+                },
+                "isHidden" : false,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 50,
+                    "width" : 197,
+                    "x" : 91,
+                    "y" : 280
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      0,
+                      0,
+                      1,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                "name" : "Spacebook",
+                "numberOfLines" : 0,
+                "originId" : "UYSQLG1B-DLG4-SPIZ-9OGL-APX8WWUNYPET",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "subcomponents" : [
+  
+                ],
+                "textStorage" : {
+                  "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBMLDBMXHiwtLi8wODxBRExNUFFUVSRudWxs0w0ODxARElhOU1N0cmluZ1YkY2xhc3NcTlNBdHRyaWJ1dGVzgAKAEoAE0g4UFRZZTlMuc3RyaW5ngANZU3BhY2Vib29r0hgZGhtaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MaHB1YTlNTdHJpbmdYTlNPYmplY3TTHyAOISYrV05TLmtleXNaTlMub2JqZWN0c6QiIyQlgAWABoAHgAikJygpKoAJgAuADYAQgBFfEBBOU1BhcmFncmFwaFN0eWxlV05TQ29sb3JWTlNGb250Vk5TS2VybtQxMjMONDU2N1pOU1RhYlN0b3BzW05TQWxpZ25tZW50XxAfTlNBbGxvd3NUaWdodGVuaW5nRm9yVHJ1bmNhdGlvboAAEAIQAYAK0hgZOTpfEBdOU011dGFibGVQYXJhZ3JhcGhTdHlsZaM5Ox1fEBBOU1BhcmFncmFwaFN0eWxl0z0+Dj81QFVOU1JHQlxOU0NvbG9yU3BhY2VGMSAxIDEAgAzSGBlCQ1dOU0NvbG9yokId1EVGRw5ISUpLVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWUjQEUAAAAAAAARBBCADoAPXxASLkFwcGxlU3lzdGVtVUlGb2500hgZTk9WTlNGb250ok4dI7\/wAAAAAAAA0hgZUlNcTlNEaWN0aW9uYXJ5olId0hgZVVZfEBlOU011dGFibGVBdHRyaWJ1dGVkU3RyaW5no1dYHV8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmdfEBJOU0F0dHJpYnV0ZWRTdHJpbmcACAARABoAJAApADIANwBJAEwAUQBTAGkAbwB2AH8AhgCTAJUAlwCZAJ4AqACqALQAuQDEAM0A3wDjAOwA9QD8AQQBDwEUARYBGAEaARwBIQEjASUBJwEpASsBPgFGAU0BVAFdAWgBdAGWAZgBmgGcAZ4BowG9AcEB1AHbAeEB7gH1AfcB\/AIEAgcCEAIXAiACJwIwAjMCNQI3AkwCUQJYAlsCZAJpAnYCeQJ+ApoCngK6AAAAAAAAAgEAAAAAAAAAWQAAAAAAAAAAAAAAAAAAAs8=",
+                  "font" : {
+                    "fontFamily" : "Lato",
+                    "fontName" : "Lato Bold",
+                    "nsFontName" : "Lato-Bold",
+                    "nsFontSize" : 42
+                  },
+                  "isAttributed" : true,
+                  "kern" : -1,
+                  "lineHeight" : -1,
+                  "localization" : {
+                    "strings" : {
+  
+                    }
+                  },
+                  "paragraphSpacing" : 0,
+                  "text" : "Spacebook",
+                  "textAlignmentType" : 2,
+                  "textAttributes" : [
+                    {
+                      "font" : {
+                        "fontFamily" : ".AppleSystemUIFont",
+                        "fontName" : ".SFNS-Regular",
+                        "nsFontName" : ".AppleSystemUIFont",
+                        "nsFontSize" : 42
+                      },
+                      "kern" : -1,
+                      "lineHeight" : -1,
+                      "paragraphSpacing" : 0,
+                      "text" : "Spacebook",
+                      "textAlignment" : 2,
+                      "textColor" : {
+                        "alpha" : 1,
+                        "blue" : 1,
+                        "green" : 1,
+                        "red" : 1
+                      }
+                    }
+                  ],
+                  "textColor" : {
+                    "alpha" : 1,
+                    "blue" : 1,
+                    "green" : 1,
+                    "masterId" : "CVY9DW5N-I9XK-NKTR-C6Z9-MRMBEZWU3PND",
+                    "red" : 1
+                  }
+                }
+              },
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 0,
+                  "blue" : 0,
+                  "green" : 0,
+                  "red" : 0
+                },
+                "componentId" : "0iR-Me-K6I",
+                "componentTypeString" : "label",
+                "fixedRadius" : {
+                  "storage" : 0
+                },
+                "isHidden" : false,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 44,
+                    "width" : 186,
+                    "x" : 96,
+                    "y" : 350
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      0,
+                      0,
+                      1,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                "name" : "Conquer the stars",
+                "numberOfLines" : 0,
+                "originId" : "E8VKR5CL-U1AK-PTRY-X8PE-ZYNFTYBHHF3K",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "subcomponents" : [
+  
+                ],
+                "textStorage" : {
+                  "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                  "font" : {
+                    "fontFamily" : "Lato",
+                    "fontName" : "Lato Regular",
+                    "nsFontName" : "Lato-Regular",
+                    "nsFontSize" : 18
+                  },
+                  "isAttributed" : false,
+                  "kern" : 0,
+                  "lineHeight" : -1,
+                  "localization" : {
+                    "strings" : {
+  
+                    }
+                  },
+                  "paragraphSpacing" : 0,
+                  "text" : "Conquer the stars\nfrom behind the screen.",
+                  "textAlignmentType" : 2,
+                  "textAttributes" : [
+  
+                  ],
+                  "textColor" : {
+                    "alpha" : 1,
+                    "blue" : 1,
+                    "green" : 1,
+                    "masterId" : "CVY9DW5N-I9XK-NKTR-C6Z9-MRMBEZWU3PND",
+                    "red" : 1
+                  }
+                }
+              },
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 0,
+                  "blue" : 0,
+                  "green" : 0,
+                  "red" : 0
+                },
+                "componentId" : "zoy-Yo-cML",
+                "componentTypeString" : "view:plain",
+                "contentInsets" : {
+                  "bottom" : 0,
+                  "left" : 0,
+                  "right" : 0,
+                  "top" : 0
+                },
+                "fixedRadius" : {
+                  "storage" : 0
+                },
+                "isHidden" : false,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 60,
+                    "width" : 315,
+                    "x" : 30,
+                    "y" : 484
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      1,
+                      1,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0
+                    ]
+                  }
+                },
+                "name" : "View",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "scrollIsBouncing" : true,
+                "scrollIsDirectionLockEnabled" : true,
+                "scrollIsPaging" : true,
+                "scrollIsScrolling" : true,
+                "scrollIsShowingHorizontalIndicator" : false,
+                "scrollIsShowingVerticalIndicator" : true,
+                "stackAlignment" : "center",
+                "stackAxis" : "horizontal",
+                "stackDistribution" : "equalSpacing",
+                "stackSpacing" : 0,
+                "subcomponents" : [
+                  {
+                    "action" : {
+                      "actionSheet" : {
+                        "buttonTitles" : [
+                          "Option 1"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message",
+                        "title" : "Title"
+                      },
+                      "actionType" : "alert",
+                      "alert" : {
+                        "buttonTitles" : [
+                          "Yeah"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message Signup",
+                        "title" : "Title Signup"
+                      },
+                      "pickerTexts" : [
+                        "Option 1",
+                        "Option 2"
+                      ],
+                      "urlToOpen" : ""
+                    },
+                    "actionMethod" : "onSignUpPressed",
+                    "alpha" : {
+                      "storage" : 1
+                    },
+                    "backgroundColor" : {
+                      "alpha" : 1,
+                      "blue" : 1,
+                      "green" : 1,
+                      "red" : 1
+                    },
+                    "backgroundImageStorage" : {
+  
+                    },
+                    "componentId" : "kJJ-Hy-0aZ",
+                    "componentTypeString" : "button",
+                    "contentEdgeInsets" : {
+                      "bottom" : 0,
+                      "left" : 0,
+                      "right" : 0,
+                      "top" : 0
+                    },
+                    "fixedRadius" : {
+                      "storage" : 2
+                    },
+                    "imagePosition" : "left",
+                    "imageStorage" : {
+                      "assetId" : "K69K9ZCL2Asq77Sbe2kb"
+                    },
+                    "imageTextSpacing" : 10,
+                    "isBackOrClose" : false,
+                    "isHidden" : false,
+                    "layout" : {
+                      "constraints" : [
+  
+                      ],
+                      "frame" : {
+                        "constrainProportions" : false,
+                        "height" : 60,
+                        "width" : 148,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "sizing" : {
+                        "mask" : [
+                          1,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      }
+                    },
+                    "name" : "Sign Up",
+                    "originId" : "OVM38CH4-XQIU-LIOG-0OLF-AV5BUB3VUFAT",
+                    "postImportMetadata" : {
+  
+                    },
+                    "rotation" : 0,
+                    "shadow" : {
+                      "color" : {
+                        "alpha" : 0.20000000298023224,
+                        "blue" : 0,
+                        "green" : 0,
+                        "red" : 0
+                      },
+                      "isEnabled" : true,
+                      "offsetX" : 0,
+                      "offsetY" : 20,
+                      "opacity" : 0,
+                      "radius" : 25,
+                      "spread" : 0
+                    },
+                    "state" : "normal",
+                    "stateConfigurations" : [
+                      {
+                        "backgroundImageStorage" : {
+  
+                        },
+                        "imageStorage" : {
+  
+                        },
+                        "isEnabled" : true,
+                        "stateComponentString" : "button",
+                        "stateType" : "highlighted"
+                      }
+                    ],
+                    "styleId" : "TVNNGDVN-E6DV-TL93-IXEY-PGZ27MOX7WTQ",
+                    "subcomponents" : [
+  
+                    ],
+                    "textStorage" : {
+                      "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                      "font" : {
+                        "fontFamily" : "Trebuchet MS",
+                        "fontName" : "TrebuchetMS-Italic",
+                        "nsFontName" : "TrebuchetMS-Italic",
+                        "nsFontSize" : 15
+                      },
+                      "isAttributed" : false,
+                      "kern" : 0,
+                      "lineHeight" : 0,
+                      "localization" : {
+                        "strings" : {
+  
+                        }
+                      },
+                      "paragraphSpacing" : 0,
+                      "text" : "SIGN UP",
+                      "textAlignmentType" : 2,
+                      "textAttributes" : [
+  
+                      ],
+                      "textColor" : {
+                        "alpha" : 1,
+                        "blue" : 0.43137261271476746,
+                        "green" : 0.40392160415649414,
+                        "red" : 0.85098040103912354
+                      }
+                    }
+                  },
+                  {
+                    "action" : {
+                      "actionSheet" : {
+                        "buttonTitles" : [
+                          "Option 1"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message",
+                        "title" : "Title"
+                      },
+                      "actionType" : "navigationToScreen",
+                      "alert" : {
+                        "buttonTitles" : [
+                          "Option 1"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message",
+                        "title" : "Title"
+                      },
+                      "pickerTexts" : [
+                        "Option 1",
+                        "Option 2"
+                      ],
+                      "urlToOpen" : ""
+                    },
+                    "actionMethod" : "onLogInPressed",
+                    "alpha" : {
+                      "storage" : 1
+                    },
+                    "backgroundColor" : {
+                      "alpha" : 1,
+                      "blue" : 1,
+                      "green" : 1,
+                      "red" : 1
+                    },
+                    "backgroundImageStorage" : {
+  
+                    },
+                    "componentId" : "a4q-vw-Sp9",
+                    "componentTypeString" : "button",
+                    "contentEdgeInsets" : {
+                      "bottom" : 0,
+                      "left" : 0,
+                      "right" : 0,
+                      "top" : 0
+                    },
+                    "fixedRadius" : {
+                      "storage" : 2
+                    },
+                    "imagePosition" : "left",
+                    "imageStorage" : {
+                      "assetId" : "o4KTo2v8RFRbY1T4Vnv5"
+                    },
+                    "imageTextSpacing" : 10,
+                    "isBackOrClose" : false,
+                    "isHidden" : false,
+                    "layout" : {
+                      "constraints" : [
+  
+                      ],
+                      "frame" : {
+                        "constrainProportions" : false,
+                        "height" : 60,
+                        "width" : 148,
+                        "x" : 167,
+                        "y" : 0
+                      },
+                      "sizing" : {
+                        "mask" : [
+                          0,
+                          1,
+                          0,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      }
+                    },
+                    "name" : "Log In",
+                    "originId" : "ASUNR4JC-TCWZ-61ZV-PMJR-N0X4UK5GLAFT",
+                    "postImportMetadata" : {
+  
+                    },
+                    "rotation" : 0,
+                    "shadow" : {
+                      "color" : {
+                        "alpha" : 0.20000000298023224,
+                        "blue" : 0,
+                        "green" : 0,
+                        "red" : 0
+                      },
+                      "isEnabled" : true,
+                      "offsetX" : 0,
+                      "offsetY" : 20,
+                      "opacity" : 0,
+                      "radius" : 25,
+                      "spread" : 0
+                    },
+                    "state" : "normal",
+                    "stateConfigurations" : [
+  
+                    ],
+                    "subcomponents" : [
+  
+                    ],
+                    "textStorage" : {
+                      "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                      "font" : {
+                        "fontFamily" : "Lato",
+                        "fontName" : "Lato-Bold",
+                        "nsFontName" : "Lato-Bold",
+                        "nsFontSize" : 15
+                      },
+                      "isAttributed" : false,
+                      "kern" : 0,
+                      "lineHeight" : 0,
+                      "localization" : {
+                        "strings" : {
+  
+                        }
+                      },
+                      "paragraphSpacing" : 0,
+                      "text" : "LOG IN",
+                      "textAlignmentType" : 2,
+                      "textAttributes" : [
+  
+                      ],
+                      "textColor" : {
+                        "alpha" : 1,
+                        "blue" : 0.42745101451873779,
+                        "green" : 0.40784311294555664,
+                        "red" : 0.85490202903747559
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 0,
+                  "blue" : 0,
+                  "green" : 0,
+                  "red" : 0
+                },
+                "componentId" : "51e-Ox-Y3C",
+                "componentTypeString" : "label",
+                "fixedRadius" : {
+                  "storage" : 0
+                },
+                "isHidden" : false,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 18,
+                    "width" : 170,
+                    "x" : 103,
+                    "y" : 629
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                "name" : "© 2050 Supernova Studio",
+                "numberOfLines" : 0,
+                "originId" : "R9ANZECT-ZE7A-KE64-PDRE-CJZITULJNP1E",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "subcomponents" : [
+  
+                ],
+                "textStorage" : {
+                  "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                  "font" : {
+                    "fontFamily" : "Lato",
+                    "fontName" : "Lato Regular",
+                    "nsFontName" : "Lato-Regular",
+                    "nsFontSize" : 15
+                  },
+                  "isAttributed" : false,
+                  "kern" : 0,
+                  "lineHeight" : -1,
+                  "localization" : {
+                    "strings" : {
+  
+                    }
+                  },
+                  "paragraphSpacing" : 0,
+                  "text" : "© 2050 Supernova Studio",
+                  "textAlignmentType" : 2,
+                  "textAttributes" : [
+  
+                  ],
+                  "textColor" : {
+                    "alpha" : 1,
+                    "blue" : 1,
+                    "green" : 1,
+                    "masterId" : "CVY9DW5N-I9XK-NKTR-C6Z9-MRMBEZWU3PND",
+                    "red" : 1
+                  }
+                }
+              }
+            ]
+          },
+          "rootNavigationControllerId" : "8Vu-qV-Yrp",
+          "statusBarStyleValue" : "dark",
+          "statusInt" : 3,
+          "tabBarItem" : {
+            "action" : {
+              "actionSheet" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "actionType" : "none",
+              "alert" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "pickerTexts" : [
+                "Option 1",
+                "Option 2"
+              ],
+              "urlToOpen" : ""
+            },
+            "alpha" : {
+              "storage" : 1
+            },
+            "backgroundColor" : {
+              "alpha" : 0,
+              "blue" : 0,
+              "green" : 0,
+              "red" : 0
+            },
+            "componentId" : "J6Z-DS-z4H",
+            "componentTypeString" : "tabBarItem",
+            "fixedRadius" : {
+              "storage" : 0
+            },
+            "imageStorage" : {
+  
+            },
+            "isHidden" : false,
+            "layout" : {
+              "constraints" : [
+  
+              ],
+              "frame" : {
+                "constrainProportions" : false,
+                "height" : 0,
+                "width" : 0,
+                "x" : 0,
+                "y" : 0
+              },
+              "sizing" : {
+                "mask" : [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "name" : "",
+            "order" : 0,
+            "postImportMetadata" : {
+  
+            },
+            "rotation" : 0,
+            "subcomponents" : [
+  
+            ],
+            "textStorage" : {
+              "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+              "font" : {
+                "fontFamily" : "",
+                "fontName" : "",
+                "nsFontName" : "",
+                "nsFontSize" : 12
+              },
+              "isAttributed" : false,
+              "kern" : 0,
+              "lineHeight" : -1,
+              "localization" : {
+                "strings" : {
+  
+                }
+              },
+              "paragraphSpacing" : 0,
+              "textAlignmentType" : 0,
+              "textAttributes" : [
+  
+              ],
+              "textColor" : {
+                "alpha" : 1,
+                "blue" : 0,
+                "green" : 0,
+                "red" : 0
+              }
+            }
+          }
+        },
+        {
+          "animations" : [
+  
+          ],
+          "artboardId" : "sm3-rv-HxY",
+          "canvasPositionX" : 366.60140991210938,
+          "canvasPositionY" : 221.57035827636719,
+          "codeClassName" : "Login",
+          "controllerName" : "Login",
+          "isContentAllowedUnderNavigationBar" : true,
+          "isContentAllowedUnderTabBar" : true,
+          "isInitialController" : false,
+          "isNavigationBarHidden" : false,
+          "isStatusBarHidden" : false,
+          "isTabBarHidden" : false,
+          "navigationBarComponentId" : "Nvo-qC-ziA",
+          "navigationBarLeftItems" : [
+            {
+              "action" : {
+                "actionSheet" : {
+                  "buttonTitles" : [
+                    "Option 1"
+                  ],
+                  "cancelButtonTitle" : "Cancel",
+                  "message" : "Message",
+                  "title" : "Title"
+                },
+                "actionType" : "navigateBack",
+                "alert" : {
+                  "buttonTitles" : [
+                    "Option 1"
+                  ],
+                  "cancelButtonTitle" : "Cancel",
+                  "message" : "Message",
+                  "title" : "Title"
+                },
+                "pickerTexts" : [
+                  "Option 1",
+                  "Option 2"
+                ],
+                "urlToOpen" : ""
+              },
+              "actionMethod" : "onGroupPressed",
+              "alpha" : {
+                "storage" : 1
+              },
+              "backgroundColor" : {
+                "alpha" : 0,
+                "blue" : 0,
+                "green" : 0,
+                "red" : 0
+              },
+              "componentId" : "yll-xo-wAL",
+              "componentTypeString" : "navigationBarItem",
+              "fixedRadius" : {
+                "storage" : 0
+              },
+              "imageStorage" : {
+                "assetId" : "wot3M3YDieN9uL3A27Wr"
+              },
+              "isBackOrClose" : false,
+              "isHidden" : false,
+              "layout" : {
+                "constraints" : [
+  
+                ],
+                "frame" : {
+                  "constrainProportions" : false,
+                  "height" : 0,
+                  "width" : 0,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "sizing" : {
+                  "mask" : [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              "name" : "Group",
+              "postImportMetadata" : {
+  
+              },
+              "rotation" : 0,
+              "subcomponents" : [
+  
+              ],
+              "textStorage" : {
+                "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                "font" : {
+                  "fontFamily" : "",
+                  "fontName" : "",
+                  "nsFontName" : "",
+                  "nsFontSize" : 12
+                },
+                "isAttributed" : false,
+                "kern" : 0,
+                "lineHeight" : -1,
+                "localization" : {
+                  "strings" : {
+  
+                  }
+                },
+                "paragraphSpacing" : 0,
+                "textAlignmentType" : 0,
+                "textAttributes" : [
+  
+                ],
+                "textColor" : {
+                  "alpha" : 1,
+                  "blue" : 0,
+                  "green" : 0,
+                  "red" : 0
+                }
+              }
+            }
+          ],
+          "navigationBarRightItems" : [
+  
+          ],
+          "navigationTitleImageStorage" : {
+  
+          },
+          "navigationTitleStorage" : {
+            "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+            "font" : {
+              "fontFamily" : "",
+              "fontName" : "",
+              "nsFontName" : "",
+              "nsFontSize" : 12
+            },
+            "isAttributed" : false,
+            "kern" : 0,
+            "lineHeight" : -1,
+            "localization" : {
+              "strings" : {
+  
+              }
+            },
+            "paragraphSpacing" : 0,
+            "textAlignmentType" : 0,
+            "textAttributes" : [
+  
+            ],
+            "textColor" : {
+              "alpha" : 1,
+              "blue" : 0,
+              "green" : 0,
+              "red" : 0
+            }
+          },
+          "objectId" : "3E4337C2-2D05-4A3C-A4AA-6FDD521D85CF",
+          "order" : 1,
+          "originalSize" : {
+            "height" : 667,
+            "width" : 375
+          },
+          "previewImageId" : "ox2bWH20sP5xXawpQnoz",
+          "rootComponent" : {
+            "action" : {
+              "actionSheet" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "actionType" : "none",
+              "alert" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "pickerTexts" : [
+                "Option 1",
+                "Option 2"
+              ],
+              "urlToOpen" : ""
+            },
+            "alpha" : {
+              "storage" : 1
+            },
+            "backgroundColor" : {
+              "alpha" : 1,
+              "blue" : 1,
+              "green" : 1,
+              "red" : 1
+            },
+            "backgroundGradient" : {
+              "elipseLength" : 0,
+              "from" : {
+                "x" : 0.31089275100955838,
+                "y" : 1.0982701148167719
+              },
+              "gradientType" : 0,
+              "stops" : [
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 0.38431370258331299,
+                    "green" : 0.51764708757400513,
+                    "red" : 0.96862751245498657
+                  },
+                  "position" : 0
+                },
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 0.54901957511901855,
+                    "green" : 0.10588239878416061,
+                    "red" : 0.54509812593460083
+                  },
+                  "position" : 1
+                }
+              ],
+              "to" : {
+                "x" : 0.68910724899044162,
+                "y" : -0.098270114816772419
+              }
+            },
+            "componentId" : "Bli-KY-rQH",
+            "componentTypeString" : "view:plain",
+            "contentInsets" : {
+              "bottom" : 0,
+              "left" : 0,
+              "right" : 0,
+              "top" : 0
+            },
+            "fixedRadius" : {
+              "storage" : 0
+            },
+            "isHidden" : false,
+            "layout" : {
+              "constraints" : [
+  
+              ],
+              "frame" : {
+                "constrainProportions" : false,
+                "height" : 667,
+                "width" : 375,
+                "x" : 0,
+                "y" : 0
+              },
+              "sizing" : {
+                "mask" : [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "name" : "Login",
+            "originId" : "3E4337C2-2D05-4A3C-A4AA-6FDD521D85CF",
+            "postImportMetadata" : {
+  
+            },
+            "rotation" : 0,
+            "scrollIsBouncing" : true,
+            "scrollIsDirectionLockEnabled" : true,
+            "scrollIsPaging" : true,
+            "scrollIsScrolling" : true,
+            "scrollIsShowingHorizontalIndicator" : false,
+            "scrollIsShowingVerticalIndicator" : true,
+            "stackAlignment" : "center",
+            "stackAxis" : "horizontal",
+            "stackDistribution" : "equalSpacing",
+            "stackSpacing" : 0,
+            "subcomponents" : [
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 0,
+                  "blue" : 0,
+                  "green" : 0,
+                  "red" : 0
+                },
+                "componentId" : "8oJ-rn-Y9O",
+                "componentTypeString" : "label",
+                "fixedRadius" : {
+                  "storage" : 0
+                },
+                "isHidden" : false,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 50,
+                    "width" : 104,
+                    "x" : 136,
+                    "y" : 114
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      0,
+                      0,
+                      1,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                "name" : "Log in",
+                "numberOfLines" : 0,
+                "originId" : "PW70YNKX-A9ZV-ZXIP-F4EJ-HENA7OKWGYUH",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "subcomponents" : [
+  
+                ],
+                "textStorage" : {
+                  "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBMLDBMXHiwtLi8wNjlARExNUFFUVSRudWxs0w0ODxARElhOU1N0cmluZ1YkY2xhc3NcTlNBdHRyaWJ1dGVzgAKAEoAE0g4UFRZZTlMuc3RyaW5ngANWTG9nIGlu0hgZGhtaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MaHB1YTlNTdHJpbmdYTlNPYmplY3TTHyAOISYrV05TLmtleXNaTlMub2JqZWN0c6QiIyQlgAWABoAHgAikJygpKoAJgAuADYAQgBFXTlNDb2xvcl8QEE5TUGFyYWdyYXBoU3R5bGVWTlNGb250Vk5TS2VybtMxMg4zNDVVTlNSR0JcTlNDb2xvclNwYWNlRjEgMSAxABACgArSGBk3OFdOU0NvbG9yojcd1Do7PA49ND4\/Wk5TVGFiU3RvcHNbTlNBbGlnbm1lbnRfEB9OU0FsbG93c1RpZ2h0ZW5pbmdGb3JUcnVuY2F0aW9ugAAQAYAM0hgZQUJfEBdOU011dGFibGVQYXJhZ3JhcGhTdHlsZaNBQx1fEBBOU1BhcmFncmFwaFN0eWxl1EVGRw5ISUpLVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWUjQEUAAAAAAAARBBCADoAPXxASLkFwcGxlU3lzdGVtVUlGb2500hgZTk9WTlNGb250ok4dI7\/wAAAAAAAA0hgZUlNcTlNEaWN0aW9uYXJ5olId0hgZVVZfEBlOU011dGFibGVBdHRyaWJ1dGVkU3RyaW5no1dYHV8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmdfEBJOU0F0dHJpYnV0ZWRTdHJpbmcACAARABoAJAApADIANwBJAEwAUQBTAGkAbwB2AH8AhgCTAJUAlwCZAJ4AqACqALEAtgDBAMoA3ADgAOkA8gD5AQEBDAERARMBFQEXARkBHgEgASIBJAEmASgBMAFDAUoBUQFYAV4BawFyAXQBdgF7AYMBhgGPAZoBpgHIAcoBzAHOAdMB7QHxAgQCDQIUAh0CJAItAjACMgI0AkkCTgJVAlgCYQJmAnMCdgJ7ApcCmwK3AAAAAAAAAgEAAAAAAAAAWQAAAAAAAAAAAAAAAAAAAsw=",
+                  "font" : {
+                    "fontFamily" : "Lato",
+                    "fontName" : "Lato Bold",
+                    "nsFontName" : "Lato-Bold",
+                    "nsFontSize" : 42
+                  },
+                  "isAttributed" : true,
+                  "kern" : -1,
+                  "lineHeight" : -1,
+                  "localization" : {
+                    "strings" : {
+  
+                    }
+                  },
+                  "paragraphSpacing" : 0,
+                  "text" : "Log in",
+                  "textAlignmentType" : 2,
+                  "textAttributes" : [
+                    {
+                      "font" : {
+                        "fontFamily" : ".AppleSystemUIFont",
+                        "fontName" : ".SFNS-Regular",
+                        "nsFontName" : ".AppleSystemUIFont",
+                        "nsFontSize" : 42
+                      },
+                      "kern" : -1,
+                      "lineHeight" : -1,
+                      "paragraphSpacing" : 0,
+                      "text" : "Log in",
+                      "textAlignment" : 2,
+                      "textColor" : {
+                        "alpha" : 1,
+                        "blue" : 1,
+                        "green" : 1,
+                        "red" : 1
+                      }
+                    }
+                  ],
+                  "textColor" : {
+                    "alpha" : 1,
+                    "blue" : 1,
+                    "green" : 1,
+                    "masterId" : "CVY9DW5N-I9XK-NKTR-C6Z9-MRMBEZWU3PND",
+                    "red" : 1
+                  }
+                }
+              },
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 0,
+                  "blue" : 0,
+                  "green" : 0,
+                  "red" : 0
+                },
+                "componentId" : "wcQ-ch-KR8",
+                "componentTypeString" : "label",
+                "fixedRadius" : {
+                  "storage" : 0
+                },
+                "isHidden" : false,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 44,
+                    "width" : 176,
+                    "x" : 100,
+                    "y" : 184
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      0,
+                      0,
+                      1,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                "name" : "Welcome back",
+                "numberOfLines" : 0,
+                "originId" : "RQEURMJB-XFSZ-TS1S-A3OX-MNM6Y8US04XI",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "subcomponents" : [
+  
+                ],
+                "textStorage" : {
+                  "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                  "font" : {
+                    "fontFamily" : "Lato",
+                    "fontName" : "Lato Regular",
+                    "nsFontName" : "Lato-Regular",
+                    "nsFontSize" : 18
+                  },
+                  "isAttributed" : false,
+                  "kern" : 0,
+                  "lineHeight" : -1,
+                  "localization" : {
+                    "strings" : {
+  
+                    }
+                  },
+                  "paragraphSpacing" : 0,
+                  "text" : "Welcome back.\nThe galaxy awaits you.",
+                  "textAlignmentType" : 2,
+                  "textAttributes" : [
+  
+                  ],
+                  "textColor" : {
+                    "alpha" : 1,
+                    "blue" : 1,
+                    "green" : 1,
+                    "masterId" : "CVY9DW5N-I9XK-NKTR-C6Z9-MRMBEZWU3PND",
+                    "red" : 1
+                  }
+                }
+              },
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 1,
+                  "blue" : 1,
+                  "green" : 1,
+                  "masterId" : "CFMCJ1S7-AORH-VBUR-I4KO-8TJILXIYF7LC",
+                  "red" : 1
+                },
+                "componentId" : "b2r-f4-98c",
+                "componentTypeString" : "view:plain",
+                "contentInsets" : {
+                  "bottom" : 0,
+                  "left" : 0,
+                  "right" : 0,
+                  "top" : 0
+                },
+                "fixedRadius" : {
+                  "masterId" : "RZZ9I8BC-3SIQ-NLO5-WMLQ-XARIRFZKWQNX",
+                  "storage" : 2
+                },
+                "isHidden" : false,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 101,
+                    "width" : 335,
+                    "x" : 20,
+                    "y" : 298
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      1,
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                "name" : "Login fields",
+                "originId" : "NUQVKDEQ-M76D-CKBJ-1SAA-TZ3PTAUWJKCG",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "scrollIsBouncing" : true,
+                "scrollIsDirectionLockEnabled" : true,
+                "scrollIsPaging" : true,
+                "scrollIsScrolling" : true,
+                "scrollIsShowingHorizontalIndicator" : false,
+                "scrollIsShowingVerticalIndicator" : true,
+                "shadow" : {
+                  "color" : {
+                    "alpha" : 0.20000000298023224,
+                    "blue" : 0,
+                    "green" : 0,
+                    "red" : 0
+                  },
+                  "isEnabled" : true,
+                  "masterId" : "SB7L3FJJ-OXDU-PYKQ-4FZV-4VXW6V0GXYGT",
+                  "offsetX" : 0,
+                  "offsetY" : 20,
+                  "opacity" : 0,
+                  "radius" : 25,
+                  "spread" : 0
+                },
+                "stackAlignment" : "center",
+                "stackAxis" : "horizontal",
+                "stackDistribution" : "equalSpacing",
+                "stackSpacing" : 0,
+                "subcomponents" : [
+                  {
+                    "action" : {
+                      "actionSheet" : {
+                        "buttonTitles" : [
+                          "Option 1"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message",
+                        "title" : "Title"
+                      },
+                      "actionType" : "none",
+                      "alert" : {
+                        "buttonTitles" : [
+                          "Option 1"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message",
+                        "title" : "Title"
+                      },
+                      "pickerTexts" : [
+                        "Option 1",
+                        "Option 2"
+                      ],
+                      "urlToOpen" : ""
+                    },
+                    "alpha" : {
+                      "storage" : 1
+                    },
+                    "backgroundColor" : {
+                      "alpha" : 0,
+                      "blue" : 0,
+                      "green" : 0,
+                      "red" : 0
+                    },
+                    "componentId" : "oiz-Rm-4aG",
+                    "componentTypeString" : "textField",
+                    "fixedRadius" : {
+                      "storage" : 0
+                    },
+                    "hasDelegate" : false,
+                    "insets" : {
+                      "bottom" : 0,
+                      "left" : 0,
+                      "right" : 0,
+                      "top" : 0
+                    },
+                    "isAutocompleteEnabled" : false,
+                    "isAutocorrectEnabled" : false,
+                    "isHidden" : false,
+                    "keyboardType" : "default",
+                    "layout" : {
+                      "constraints" : [
+  
+                      ],
+                      "frame" : {
+                        "constrainProportions" : false,
+                        "height" : 20,
+                        "width" : 305.25390625,
+                        "x" : 15,
+                        "y" : 14
+                      },
+                      "sizing" : {
+                        "mask" : [
+                          1,
+                          1,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      }
+                    },
+                    "name" : "Your nickname",
+                    "originId" : "JSWCWI91-L5VL-POOM-B5F3-IC5Z4O3SFPJO",
+                    "postImportMetadata" : {
+  
+                    },
+                    "returnKeyType" : "default",
+                    "rotation" : 0,
+                    "secure" : false,
+                    "showClearButton" : false,
+                    "subcomponents" : [
+  
+                    ],
+                    "textStorage" : {
+                      "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                      "font" : {
+                        "fontFamily" : "Lato",
+                        "fontName" : "Lato-Regular",
+                        "nsFontName" : "Lato-Regular",
+                        "nsFontSize" : 15
+                      },
+                      "isAttributed" : false,
+                      "kern" : 0,
+                      "lineHeight" : 0,
+                      "localization" : {
+                        "strings" : {
+  
+                        }
+                      },
+                      "paragraphSpacing" : 0,
+                      "text" : "Your nickname",
+                      "textAlignmentType" : 0,
+                      "textAttributes" : [
+  
+                      ],
+                      "textColor" : {
+                        "alpha" : 1,
+                        "blue" : 0,
+                        "green" : 0,
+                        "red" : 0
+                      }
+                    }
+                  },
+                  {
+                    "action" : {
+                      "actionSheet" : {
+                        "buttonTitles" : [
+                          "Option 1"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message",
+                        "title" : "Title"
+                      },
+                      "actionType" : "none",
+                      "alert" : {
+                        "buttonTitles" : [
+                          "Option 1"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message",
+                        "title" : "Title"
+                      },
+                      "pickerTexts" : [
+                        "Option 1",
+                        "Option 2"
+                      ],
+                      "urlToOpen" : ""
+                    },
+                    "alpha" : {
+                      "storage" : 0.10000000149011611
+                    },
+                    "backgroundColor" : {
+                      "alpha" : 1,
+                      "blue" : 0,
+                      "green" : 0,
+                      "masterId" : "CDFARZOZ-JRZQ-PV9K-VHFU-0XJH6YPQWLY0",
+                      "red" : 0
+                    },
+                    "componentId" : "Eqn-QU-FMq",
+                    "componentTypeString" : "view:plain",
+                    "contentInsets" : {
+                      "bottom" : 0,
+                      "left" : 0,
+                      "right" : 0,
+                      "top" : 0
+                    },
+                    "fixedRadius" : {
+                      "storage" : 0
+                    },
+                    "isHidden" : false,
+                    "layout" : {
+                      "constraints" : [
+  
+                      ],
+                      "frame" : {
+                        "constrainProportions" : false,
+                        "height" : 1,
+                        "width" : 335,
+                        "x" : 0,
+                        "y" : 50
+                      },
+                      "sizing" : {
+                        "mask" : [
+                          1,
+                          1,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      }
+                    },
+                    "name" : "separator",
+                    "originId" : "Z3NMR7DY-WC9I-V0TX-KI5L-Y60HLQR8FY1R",
+                    "postImportMetadata" : {
+  
+                    },
+                    "rotation" : 0,
+                    "scrollIsBouncing" : true,
+                    "scrollIsDirectionLockEnabled" : true,
+                    "scrollIsPaging" : true,
+                    "scrollIsScrolling" : true,
+                    "scrollIsShowingHorizontalIndicator" : false,
+                    "scrollIsShowingVerticalIndicator" : true,
+                    "stackAlignment" : "center",
+                    "stackAxis" : "horizontal",
+                    "stackDistribution" : "equalSpacing",
+                    "stackSpacing" : 0,
+                    "subcomponents" : [
+  
+                    ]
+                  },
+                  {
+                    "action" : {
+                      "actionSheet" : {
+                        "buttonTitles" : [
+                          "Option 1"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message",
+                        "title" : "Title"
+                      },
+                      "actionType" : "none",
+                      "alert" : {
+                        "buttonTitles" : [
+                          "Option 1"
+                        ],
+                        "cancelButtonTitle" : "Cancel",
+                        "message" : "Message",
+                        "title" : "Title"
+                      },
+                      "pickerTexts" : [
+                        "Option 1",
+                        "Option 2"
+                      ],
+                      "urlToOpen" : ""
+                    },
+                    "alpha" : {
+                      "storage" : 1
+                    },
+                    "backgroundColor" : {
+                      "alpha" : 0,
+                      "blue" : 0,
+                      "green" : 0,
+                      "red" : 0
+                    },
+                    "componentId" : "UD7-xl-u6L",
+                    "componentTypeString" : "textField",
+                    "fixedRadius" : {
+                      "storage" : 0
+                    },
+                    "hasDelegate" : false,
+                    "insets" : {
+                      "bottom" : 0,
+                      "left" : 0,
+                      "right" : 0,
+                      "top" : 0
+                    },
+                    "isAutocompleteEnabled" : false,
+                    "isAutocorrectEnabled" : false,
+                    "isHidden" : false,
+                    "keyboardType" : "default",
+                    "layout" : {
+                      "constraints" : [
+  
+                      ],
+                      "frame" : {
+                        "constrainProportions" : false,
+                        "height" : 20,
+                        "width" : 305.25390625,
+                        "x" : 15,
+                        "y" : 65
+                      },
+                      "sizing" : {
+                        "mask" : [
+                          1,
+                          1,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      }
+                    },
+                    "name" : "Your password",
+                    "originId" : "EDMZ7VGT-WVPK-AICX-FKIC-XTA1EZCOW4ZY",
+                    "postImportMetadata" : {
+  
+                    },
+                    "returnKeyType" : "default",
+                    "rotation" : 0,
+                    "secure" : true,
+                    "showClearButton" : false,
+                    "subcomponents" : [
+  
+                    ],
+                    "textStorage" : {
+                      "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                      "font" : {
+                        "fontFamily" : "Lato",
+                        "fontName" : "Lato-Regular",
+                        "nsFontName" : "Lato-Regular",
+                        "nsFontSize" : 15
+                      },
+                      "isAttributed" : false,
+                      "kern" : 0,
+                      "lineHeight" : 0,
+                      "localization" : {
+                        "strings" : {
+  
+                        }
+                      },
+                      "paragraphSpacing" : 0,
+                      "text" : "Your password",
+                      "textAlignmentType" : 0,
+                      "textAttributes" : [
+  
+                      ],
+                      "textColor" : {
+                        "alpha" : 1,
+                        "blue" : 0,
+                        "green" : 0,
+                        "red" : 0
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "actionMethod" : "onLoginPressed",
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 1,
+                  "blue" : 1,
+                  "green" : 1,
+                  "red" : 1
+                },
+                "backgroundImageStorage" : {
+  
+                },
+                "componentId" : "xgr-0U-Y5t",
+                "componentTypeString" : "button",
+                "contentEdgeInsets" : {
+                  "bottom" : 0,
+                  "left" : 0,
+                  "right" : 0,
+                  "top" : 0
+                },
+                "fixedRadius" : {
+                  "storage" : 2
+                },
+                "imagePosition" : "left",
+                "imageStorage" : {
+                  "assetId" : "o4KTo2v8RFRbY1T4Vnv5"
+                },
+                "imageTextSpacing" : 10,
+                "isBackOrClose" : false,
+                "isHidden" : false,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 60,
+                    "width" : 335,
+                    "x" : 20,
+                    "y" : 559
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      1,
+                      1,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                "name" : "Login",
+                "originId" : "C4SHDLWY-DEN0-7XPV-PHYA-9COJUGV1Q5NI",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "shadow" : {
+                  "color" : {
+                    "alpha" : 0.20000000298023224,
+                    "blue" : 0,
+                    "green" : 0,
+                    "red" : 0
+                  },
+                  "isEnabled" : true,
+                  "offsetX" : 0,
+                  "offsetY" : 20,
+                  "opacity" : 0,
+                  "radius" : 25,
+                  "spread" : 0
+                },
+                "state" : "normal",
+                "stateConfigurations" : [
+  
+                ],
+                "subcomponents" : [
+  
+                ],
+                "textStorage" : {
+                  "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                  "font" : {
+                    "fontFamily" : "Lato",
+                    "fontName" : "Lato-Bold",
+                    "nsFontName" : "Lato-Bold",
+                    "nsFontSize" : 15
+                  },
+                  "isAttributed" : false,
+                  "kern" : 0,
+                  "lineHeight" : 0,
+                  "localization" : {
+                    "strings" : {
+  
+                    }
+                  },
+                  "paragraphSpacing" : 0,
+                  "text" : "LOG IN",
+                  "textAlignmentType" : 2,
+                  "textAttributes" : [
+  
+                  ],
+                  "textColor" : {
+                    "alpha" : 1,
+                    "blue" : 0.43137261271476746,
+                    "green" : 0.40392160415649414,
+                    "red" : 0.85098040103912354
+                  }
+                }
+              },
+              {
+                "action" : {
+                  "actionSheet" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "actionType" : "none",
+                  "alert" : {
+                    "buttonTitles" : [
+                      "Option 1"
+                    ],
+                    "cancelButtonTitle" : "Cancel",
+                    "message" : "Message",
+                    "title" : "Title"
+                  },
+                  "pickerTexts" : [
+                    "Option 1",
+                    "Option 2"
+                  ],
+                  "urlToOpen" : ""
+                },
+                "actionMethod" : "onForgotYourPasswordPressed",
+                "alpha" : {
+                  "storage" : 1
+                },
+                "backgroundColor" : {
+                  "alpha" : 0,
+                  "blue" : 0,
+                  "green" : 0,
+                  "red" : 0
+                },
+                "backgroundImageStorage" : {
+  
+                },
+                "componentId" : "gFA-Vq-841",
+                "componentTypeString" : "button",
+                "contentEdgeInsets" : {
+                  "bottom" : 0,
+                  "left" : 0,
+                  "right" : 0,
+                  "top" : 0
+                },
+                "fixedRadius" : {
+                  "storage" : 0
+                },
+                "imagePosition" : "left",
+                "imageStorage" : {
+  
+                },
+                "imageTextSpacing" : 10,
+                "isBackOrClose" : false,
+                "isHidden" : false,
+                "layout" : {
+                  "constraints" : [
+  
+                  ],
+                  "frame" : {
+                    "constrainProportions" : false,
+                    "height" : 18,
+                    "width" : 166,
+                    "x" : 113,
+                    "y" : 630
+                  },
+                  "sizing" : {
+                    "mask" : [
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                "name" : "Forgot your password",
+                "originId" : "6FE2XMAU-ZTNI-ZWCR-ZWRP-QNGIKEWJPHXS",
+                "postImportMetadata" : {
+  
+                },
+                "rotation" : 0,
+                "state" : "normal",
+                "stateConfigurations" : [
+  
+                ],
+                "subcomponents" : [
+  
+                ],
+                "textStorage" : {
+                  "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+                  "font" : {
+                    "fontFamily" : "Lato",
+                    "fontName" : "Lato Regular",
+                    "nsFontName" : "Lato-Regular",
+                    "nsFontSize" : 15
+                  },
+                  "isAttributed" : false,
+                  "kern" : 0,
+                  "lineHeight" : -1,
+                  "localization" : {
+                    "strings" : {
+  
+                    }
+                  },
+                  "paragraphSpacing" : 0,
+                  "text" : "Forgot your password?",
+                  "textAlignmentType" : 2,
+                  "textAttributes" : [
+  
+                  ],
+                  "textColor" : {
+                    "alpha" : 1,
+                    "blue" : 1,
+                    "green" : 1,
+                    "red" : 1
+                  }
+                }
+              }
+            ]
+          },
+          "rootNavigationControllerId" : "auG-JG-MnR",
+          "statusBarStyleValue" : "light",
+          "statusInt" : 3,
+          "tabBarItem" : {
+            "action" : {
+              "actionSheet" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "actionType" : "none",
+              "alert" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "pickerTexts" : [
+                "Option 1",
+                "Option 2"
+              ],
+              "urlToOpen" : ""
+            },
+            "alpha" : {
+              "storage" : 1
+            },
+            "backgroundColor" : {
+              "alpha" : 0,
+              "blue" : 0,
+              "green" : 0,
+              "red" : 0
+            },
+            "componentId" : "3Sg-K6-4No",
+            "componentTypeString" : "tabBarItem",
+            "fixedRadius" : {
+              "storage" : 0
+            },
+            "imageStorage" : {
+  
+            },
+            "isHidden" : false,
+            "layout" : {
+              "constraints" : [
+  
+              ],
+              "frame" : {
+                "constrainProportions" : false,
+                "height" : 0,
+                "width" : 0,
+                "x" : 0,
+                "y" : 0
+              },
+              "sizing" : {
+                "mask" : [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "name" : "",
+            "order" : 0,
+            "postImportMetadata" : {
+  
+            },
+            "rotation" : 0,
+            "subcomponents" : [
+  
+            ],
+            "textStorage" : {
+              "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+              "font" : {
+                "fontFamily" : "",
+                "fontName" : "",
+                "nsFontName" : "",
+                "nsFontSize" : 12
+              },
+              "isAttributed" : false,
+              "kern" : 0,
+              "lineHeight" : -1,
+              "localization" : {
+                "strings" : {
+  
+                }
+              },
+              "paragraphSpacing" : 0,
+              "textAlignmentType" : 0,
+              "textAttributes" : [
+  
+              ],
+              "textColor" : {
+                "alpha" : 1,
+                "blue" : 0,
+                "green" : 0,
+                "red" : 0
+              }
+            }
+          }
+        }
+      ],
+      "sharedComponents" : {
+        "navigationBars" : [
+          {
+            "action" : {
+              "actionSheet" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "actionType" : "none",
+              "alert" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "pickerTexts" : [
+                "Option 1",
+                "Option 2"
+              ],
+              "urlToOpen" : ""
+            },
+            "alpha" : {
+              "storage" : 1
+            },
+            "backgroundColor" : {
+              "alpha" : 0,
+              "blue" : 0,
+              "green" : 0,
+              "red" : 0
+            },
+            "backgroundImageStorage" : {
+  
+            },
+            "componentId" : "Nvo-qC-ziA",
+            "componentTypeString" : "navigationBar",
+            "fixedRadius" : {
+              "storage" : 0
+            },
+            "isHidden" : false,
+            "itemFont" : {
+              "fontFamily" : "",
+              "fontName" : "",
+              "nsFontName" : "",
+              "nsFontSize" : 12
+            },
+            "itemTintColor" : {
+              "alpha" : 1,
+              "blue" : 1,
+              "green" : 1,
+              "red" : 0.99999600648880005
+            },
+            "layout" : {
+              "constraints" : [
+  
+              ],
+              "frame" : {
+                "constrainProportions" : false,
+                "height" : 0,
+                "width" : 0,
+                "x" : 0,
+                "y" : 0
+              },
+              "sizing" : {
+                "mask" : [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "name" : "Navigation Bar #1",
+            "postImportMetadata" : {
+  
+            },
+            "rotation" : 0,
+            "subcomponents" : [
+  
+            ],
+            "textStorage" : {
+              "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+              "font" : {
+                "fontFamily" : "",
+                "fontName" : "",
+                "nsFontName" : "",
+                "nsFontSize" : 12
+              },
+              "isAttributed" : false,
+              "kern" : 0,
+              "lineHeight" : -1,
+              "localization" : {
+                "strings" : {
+  
+                }
+              },
+              "paragraphSpacing" : 0,
+              "textAlignmentType" : 0,
+              "textAttributes" : [
+  
+              ],
+              "textColor" : {
+                "alpha" : 1,
+                "blue" : 0,
+                "green" : 0,
+                "red" : 0
+              }
+            }
+          },
+          {
+            "action" : {
+              "actionSheet" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "actionType" : "none",
+              "alert" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "pickerTexts" : [
+                "Option 1",
+                "Option 2"
+              ],
+              "urlToOpen" : ""
+            },
+            "alpha" : {
+              "storage" : 1
+            },
+            "backgroundColor" : {
+              "alpha" : 0,
+              "blue" : 0,
+              "green" : 0,
+              "red" : 0
+            },
+            "backgroundGradient" : {
+              "elipseLength" : 0,
+              "from" : {
+                "x" : -0.0141273757501576,
+                "y" : 0.51497504519873694
+              },
+              "gradientType" : 0,
+              "stops" : [
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 0.38431370258331299,
+                    "green" : 0.51764708757400513,
+                    "red" : 0.96862751245498657
+                  },
+                  "position" : 0
+                },
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 0.54901957511901855,
+                    "green" : 0.10588239878416061,
+                    "red" : 0.54509812593460083
+                  },
+                  "position" : 1
+                }
+              ],
+              "to" : {
+                "x" : 1.014127375750157,
+                "y" : 0.48502495480125929
+              }
+            },
+            "backgroundImageStorage" : {
+  
+            },
+            "componentId" : "nvQ-Tv-RrS",
+            "componentTypeString" : "navigationBar",
+            "fixedRadius" : {
+              "storage" : 0
+            },
+            "isHidden" : false,
+            "itemFont" : {
+              "fontFamily" : "",
+              "fontName" : "",
+              "nsFontName" : "",
+              "nsFontSize" : 12
+            },
+            "itemTintColor" : {
+              "alpha" : 1,
+              "blue" : 1,
+              "green" : 1,
+              "red" : 1
+            },
+            "layout" : {
+              "constraints" : [
+  
+              ],
+              "frame" : {
+                "constrainProportions" : false,
+                "height" : 0,
+                "width" : 0,
+                "x" : 0,
+                "y" : 0
+              },
+              "sizing" : {
+                "mask" : [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "name" : "Navigation Bar #2",
+            "postImportMetadata" : {
+  
+            },
+            "rotation" : 0,
+            "subcomponents" : [
+  
+            ],
+            "textStorage" : {
+              "attributedString" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwRFRxVJG51bGzSDQ4PEFhOU1N0cmluZ1YkY2xhc3OAAoAE0g4SExRZTlMuc3RyaW5ngANQ0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc18QD05TTXV0YWJsZVN0cmluZ6MYGhtYTlNTdHJpbmdYTlNPYmplY3TSFhcdHl8QGU5TTXV0YWJsZUF0dHJpYnV0ZWRTdHJpbmejHyAbXxAZTlNNdXRhYmxlQXR0cmlidXRlZFN0cmluZ18QEk5TQXR0cmlidXRlZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAWQBfAGQAbQB0AHYAeAB9AIcAiQCKAI8AmgCjALUAuQDCAMsA0ADsAPABDAAAAAAAAAIBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAEh",
+              "font" : {
+                "fontFamily" : "Lato",
+                "fontName" : "Lato Regular",
+                "nsFontName" : "Lato-Regular",
+                "nsFontSize" : 17
+              },
+              "isAttributed" : false,
+              "kern" : 0,
+              "lineHeight" : -1,
+              "localization" : {
+                "strings" : {
+  
+                }
+              },
+              "paragraphSpacing" : 0,
+              "textAlignmentType" : 0,
+              "textAttributes" : [
+  
+              ],
+              "textColor" : {
+                "alpha" : 1,
+                "blue" : 1,
+                "green" : 1,
+                "red" : 1
+              }
+            }
+          }
+        ],
+        "tabBars" : [
+          {
+            "action" : {
+              "actionSheet" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "actionType" : "none",
+              "alert" : {
+                "buttonTitles" : [
+                  "Option 1"
+                ],
+                "cancelButtonTitle" : "Cancel",
+                "message" : "Message",
+                "title" : "Title"
+              },
+              "pickerTexts" : [
+                "Option 1",
+                "Option 2"
+              ],
+              "urlToOpen" : ""
+            },
+            "alpha" : {
+              "storage" : 1
+            },
+            "backgroundColor" : {
+              "alpha" : 1,
+              "blue" : 0.97254902124404907,
+              "green" : 0.97254902124404907,
+              "red" : 0.97254902124404907
+            },
+            "componentId" : "qoN-i0-Qk1",
+            "componentTypeString" : "tabBar",
+            "fixedRadius" : {
+              "storage" : 0
+            },
+            "isHidden" : false,
+            "itemSelectedTextColor" : {
+              "alpha" : 1,
+              "blue" : 0.54901957511901855,
+              "green" : 0.10588239878416061,
+              "red" : 0.54509812593460083
+            },
+            "itemSelectedTintColor" : {
+              "alpha" : 1,
+              "blue" : 0.54901957511901855,
+              "green" : 0.10588239878416061,
+              "red" : 0.54509812593460083
+            },
+            "itemTextColor" : {
+              "alpha" : 1,
+              "blue" : 0.54901957511901855,
+              "green" : 0.10588239878416061,
+              "red" : 0.54509812593460083
+            },
+            "itemTextFont" : {
+              "fontFamily" : "",
+              "fontName" : "",
+              "nsFontName" : "",
+              "nsFontSize" : 12
+            },
+            "itemTintColor" : {
+              "alpha" : 1,
+              "blue" : 0.54901957511901855,
+              "green" : 0.10588239878416061,
+              "red" : 0.54509812593460083
+            },
+            "layout" : {
+              "constraints" : [
+  
+              ],
+              "frame" : {
+                "constrainProportions" : false,
+                "height" : 0,
+                "width" : 0,
+                "x" : 0,
+                "y" : 0
+              },
+              "sizing" : {
+                "mask" : [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "name" : "Tab Bar #1",
+            "postImportMetadata" : {
+  
+            },
+            "rotation" : 0,
+            "subcomponents" : [
+  
+            ]
+          }
+        ]
+      },
+      "styles" : {
+        "styles" : [
+          {
+            "alpha" : {
+              "storage" : 1
+            },
+            "backgroundColor" : {
+              "alpha" : 1,
+              "blue" : 0,
+              "green" : 0,
+              "red" : 0
+            },
+            "border" : {
+              "color" : {
+                "alpha" : 1,
+                "blue" : 0,
+                "green" : 0,
+                "red" : 0
+              },
+              "isEnabled" : true,
+              "position" : 0,
+              "width" : 2
+            },
+            "cornerRadius" : {
+              "storage" : 2
+            },
+            "font" : {
+              "fontFamily" : ".AppleSystemUIFont",
+              "fontName" : ".SFNS-Regular",
+              "nsFontName" : ".AppleSystemUIFont",
+              "nsFontSize" : 12
+            },
+            "foregroundColor" : {
+              "alpha" : 1,
+              "blue" : 0,
+              "comment" : "Primary color of app texts",
+              "green" : 0,
+              "name" : "Primary Text",
+              "red" : 0,
+              "tokenId" : "CKJZVP7B-9GJQ-FQ0O-55RY-AZROYEFDLLHS"
+            },
+            "gradient" : {
+              "elipseLength" : 0,
+              "from" : {
+                "x" : 0.5,
+                "y" : 0
+              },
+              "gradientType" : 0,
+              "name" : "CustomGradient",
+              "stops" : [
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 0,
+                    "green" : 0.90034908056259155,
+                    "red" : 1
+                  },
+                  "position" : 0
+                },
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 1,
+                    "green" : 0,
+                    "red" : 0.034491356462240219
+                  },
+                  "position" : 1
+                }
+              ],
+              "to" : {
+                "x" : 0.5,
+                "y" : 1
+              },
+              "tokenId" : "GUYDE74B-GJQ6-PVGC-BLEP-CGFSIKB708ZW"
+            },
+            "mask" : [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "name" : "Custom Style",
+            "shadow" : {
+              "color" : {
+                "alpha" : 1,
+                "blue" : 0,
+                "green" : 0,
+                "red" : 0
+              },
+              "isEnabled" : true,
+              "offsetX" : 2,
+              "offsetY" : 2,
+              "opacity" : 1,
+              "radius" : 2,
+              "spread" : 0
+            },
+            "tokenId" : "TVNNGDVN-E6DV-TL93-IXEY-PGZ27MOX7WTQ"
+          }
+        ],
+        "tokens" : {
+          "assets" : {
+            "bitmaps" : [
+              {
+                "assetId" : "YRIG9GIN-00RG-38TD-A5XW-TBPRWUCW5OLJ",
+                "assetType" : "bitmap",
+                "contentHash" : "wByDP1zQ6F0SkGdRDAUr",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "booth",
+                "size" : {
+                  "height" : 1000,
+                  "width" : 669
+                },
+                "tokenId" : "AVDCQUOT-OR5A-JJSD-4567-JJ163TJFFCVL",
+                "userName" : "booth"
+              },
+              {
+                "assetId" : "0J7PXEVA-JMBT-FGSR-QV77-8KCZXFH5AF8R",
+                "assetType" : "bitmap",
+                "contentHash" : "BYCISJ79PtCBYQztrBrs",
+                "isInternal" : true,
+                "originalDuplicateNames" : 2,
+                "originalName" : "bg-news-temp",
+                "size" : {
+                  "height" : 625,
+                  "width" : 1000
+                },
+                "tokenId" : "AY6HW2XU-UJ3X-LKIW-EWLR-LEYCWT4VGR8H",
+                "userName" : "bg-news-temp-3"
+              },
+              {
+                "assetId" : "VP48TVTG-8JLO-I5S4-XVEK-GUM6JOOQK7UP",
+                "assetType" : "bitmap",
+                "contentHash" : "noZk7U3C1ClOc7SCC9mx",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "laika",
+                "size" : {
+                  "height" : 200,
+                  "width" : 200
+                },
+                "tokenId" : "AJWCEW8C-7YC4-FNI0-P5GX-6S7NRSEJJY5S",
+                "userName" : "laika"
+              },
+              {
+                "assetId" : "OT4SZZ48-TXXL-I5UF-V8ZV-BXXO0LSGRLSF",
+                "assetType" : "bitmap",
+                "contentHash" : "5DbU22SwoVyDN401HLK2",
+                "isInternal" : true,
+                "originalDuplicateNames" : 2,
+                "originalName" : "bg-event-temp",
+                "size" : {
+                  "height" : 500,
+                  "width" : 500
+                },
+                "tokenId" : "AAQAKFGM-RQZR-HCNP-GXM6-MEHQNPHR9AQO",
+                "userName" : "bg-event-temp-3"
+              },
+              {
+                "assetId" : "5FJCSOS6-7RUV-0UTP-JIZU-8CCTB5WGH9LU",
+                "assetType" : "bitmap",
+                "contentHash" : "cvs9hUBvh3twNcp1NYa0",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "bowtie",
+                "size" : {
+                  "height" : 665,
+                  "width" : 1000
+                },
+                "tokenId" : "A9IOMIE1-CFAY-YJYD-FH2V-WM83OXKB7GSE",
+                "userName" : "bowtie"
+              },
+              {
+                "assetId" : "IOXKDUAK-NOL2-KSP9-L8AL-X3YDVPDQIYAV",
+                "assetType" : "bitmap",
+                "contentHash" : "NRfJ6Tmi37RJfK0qPlY3",
+                "isInternal" : true,
+                "originalDuplicateNames" : 1,
+                "originalName" : "icon-avatar",
+                "size" : {
+                  "height" : 296,
+                  "width" : 296
+                },
+                "tokenId" : "AZVBUXXP-V276-J9AR-HPTX-QJZXXV9ZGRKZ",
+                "userName" : "icon-avatar-3"
+              },
+              {
+                "assetId" : "T7VZMPCG-FMF7-IIYC-KERC-9AWDODL5QS14",
+                "assetType" : "bitmap",
+                "contentHash" : "HsP3XuPiMiQjlGfZIwNw",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "orloj",
+                "size" : {
+                  "height" : 685,
+                  "width" : 1000
+                },
+                "tokenId" : "AOFA7SPE-RY9K-JPMO-SAUK-NES1XYYWHCYV",
+                "userName" : "orloj"
+              },
+              {
+                "assetId" : "SPYOQS9I-OVBJ-QFEV-WWI1-R3PBAZHOV74T",
+                "assetType" : "bitmap",
+                "contentHash" : "EId8ZzTpk7NXyZ3Acr0g",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "sarah",
+                "size" : {
+                  "height" : 200,
+                  "width" : 200
+                },
+                "tokenId" : "AKDRL179-VBPD-1EPB-QFRS-MF750PZ6RUXS",
+                "userName" : "sarah"
+              },
+              {
+                "assetId" : "GDZJVMYL-SXYD-VRSA-BFM0-ETQAUUZQP5ZE",
+                "assetType" : "bitmap",
+                "contentHash" : "WD1EH7iTAJgzog7VwDlS",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "alarm",
+                "size" : {
+                  "height" : 667,
+                  "width" : 1000
+                },
+                "tokenId" : "ALTMPMGZ-7ZNT-QZOE-QX1S-CNB8JHF5RWYK",
+                "userName" : "alarm"
+              },
+              {
+                "assetId" : "9ZT3G2VE-2MSI-SNXS-MJ5E-PMS0PPSQJUWJ",
+                "assetType" : "bitmap",
+                "contentHash" : "ezNcklwXGaNI9VK36f7T",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "bg-news-temp",
+                "size" : {
+                  "height" : 666,
+                  "width" : 1000
+                },
+                "tokenId" : "AIFMEVTW-SNHB-1NAJ-FAII-YUGONNQ3EX8A",
+                "userName" : "bg-news-temp-4"
+              },
+              {
+                "assetId" : "HQY2WTMM-PNLQ-DW4Y-ZDCF-DPVTVARHUORW",
+                "assetType" : "bitmap",
+                "contentHash" : "phUS8IviNx37TvLEPjx3",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "when",
+                "size" : {
+                  "height" : 400,
+                  "width" : 400
+                },
+                "tokenId" : "ANF81I2P-BYA1-CTXX-JCUA-QE3CY51SYF3P",
+                "userName" : "when"
+              },
+              {
+                "assetId" : "NYBHVJBY-KFA2-D62C-LFEA-IG46H2Z5RV5S",
+                "assetType" : "bitmap",
+                "contentHash" : "vCf1d3UNNopx6rQUZb1e",
+                "isInternal" : true,
+                "originalDuplicateNames" : 1,
+                "originalName" : "avatar.astronaut",
+                "size" : {
+                  "height" : 368,
+                  "width" : 368
+                },
+                "tokenId" : "ANZHPTLC-JUB6-RJEQ-1M1A-K6KM2JBUUAIX",
+                "userName" : "avatarastronaut-3"
+              },
+              {
+                "assetId" : "MV5P6GDO-F28Q-QKRI-HLZR-GK5HRS0OCWX4",
+                "assetType" : "bitmap",
+                "contentHash" : "nk047LRO6Y4uWhykmXYA",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "photo-temp",
+                "size" : {
+                  "height" : 1000,
+                  "width" : 1000
+                },
+                "tokenId" : "AITFFFA8-OEHS-B77L-OVGN-8DZBGRPF3MIH",
+                "userName" : "photo-temp"
+              },
+              {
+                "assetId" : "X80XVMY6-ONEY-KWUY-71HF-GPCGELFYAJ6Y",
+                "assetType" : "bitmap",
+                "contentHash" : "KJC1pefeMMBVvppGhERV",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "tony_spark",
+                "size" : {
+                  "height" : 200,
+                  "width" : 200
+                },
+                "tokenId" : "ANGSBEAJ-AA5J-WDFU-HMLJ-JOEITPHMTOJC",
+                "userName" : "tony-spark"
+              },
+              {
+                "assetId" : "NFRWJKOX-EQYJ-U1VW-P2HM-OJIHKVAZABRP",
+                "assetType" : "bitmap",
+                "contentHash" : "oNtgOMKkBc7m1pWjzmim",
+                "isInternal" : true,
+                "originalDuplicateNames" : 3,
+                "originalName" : "avatar-temp",
+                "size" : {
+                  "height" : 512,
+                  "width" : 512
+                },
+                "tokenId" : "ARRQJ6HU-HICX-MQWQ-MMZO-RNSZK6GCBWA9",
+                "userName" : "avatar-temp-5"
+              },
+              {
+                "assetId" : "W6F51FZJ-SSMB-4TER-NLFS-AYVC2CK5LGQO",
+                "assetType" : "bitmap",
+                "contentHash" : "dESWCh7sMOBmJz9nzhe0",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "doya",
+                "size" : {
+                  "height" : 200,
+                  "width" : 200
+                },
+                "tokenId" : "AHM34DYA-AWU0-F4RM-J4GJ-XDWTR37TR8KT",
+                "userName" : "doya"
+              },
+              {
+                "assetId" : "ZQR2AQLQ-JSLW-GMOI-KZL6-4DRJ7D54W3KF",
+                "assetType" : "bitmap",
+                "contentHash" : "HlB247EvNFZvrt1KqbV3",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "gideon",
+                "size" : {
+                  "height" : 200,
+                  "width" : 200
+                },
+                "tokenId" : "ANJKRHX9-YEOU-KQV2-YZCF-GYPUVXQ8KO9W",
+                "userName" : "gideon"
+              },
+              {
+                "assetId" : "1UZVUAUP-AJSI-UABQ-2KUB-NFBBIQRPDUQL",
+                "assetType" : "bitmap",
+                "contentHash" : "KUfIevPQQABPdLqNb2ex",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "mask",
+                "size" : {
+                  "height" : 120,
+                  "width" : 120
+                },
+                "tokenId" : "AP5REXNC-FZL0-Z5OE-VOED-VAR14BS7MAIV",
+                "userName" : "mask"
+              },
+              {
+                "assetId" : "HHBQOSF6-CNBY-QCMM-4TMN-PMGCY8QYK48L",
+                "assetType" : "bitmap",
+                "contentHash" : "7cpUuJEMcpOo8g15TfQP",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "bg-event-temp",
+                "size" : {
+                  "height" : 200,
+                  "width" : 375
+                },
+                "tokenId" : "AJDWTRXR-CX7R-AT1R-T6AX-NUTBJB8YQH6U",
+                "userName" : "bg-event-temp-4"
+              },
+              {
+                "assetId" : "KQJOKBOI-DU6G-PVLV-1GEF-3DMYCHTNHY83",
+                "assetType" : "bitmap",
+                "contentHash" : "5mXUNBfob0wgpWT6PbvF",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "bg-map-temp",
+                "size" : {
+                  "height" : 692,
+                  "width" : 423
+                },
+                "tokenId" : "A5MPRX1O-XQUH-VPPN-HB4F-MFT0LWQITZV5",
+                "userName" : "bg-map-temp-2"
+              },
+              {
+                "assetId" : "XHCKPCIK-YN33-BIT9-SXXL-ZSJ4DT8USZHP",
+                "assetType" : "bitmap",
+                "contentHash" : "BHONpI8tGoKkhuuHetsd",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "galaxy",
+                "size" : {
+                  "height" : 667,
+                  "width" : 1000
+                },
+                "tokenId" : "AZ42VANK-OVNS-ZAP8-W5IA-NE3MW7SSLR2G",
+                "userName" : "galaxy"
+              },
+              {
+                "assetId" : "GGVESQSP-FLWA-7PTK-XGIL-PNL57TA6PDD8",
+                "assetType" : "bitmap",
+                "contentHash" : "eybwi222kHRXrvPhzTLo",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "jack",
+                "size" : {
+                  "height" : 500,
+                  "width" : 500
+                },
+                "tokenId" : "AMV3WXXH-7LAR-QVJC-UO15-NOBPA8OEBL4V",
+                "userName" : "jack"
+              },
+              {
+                "assetId" : "PWQNCXFX-OROV-RWL9-MXQ0-3FISB5CBLLZE",
+                "assetType" : "bitmap",
+                "contentHash" : "ZuMgAoByCcn9feJHBuD5",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "vulcan",
+                "size" : {
+                  "height" : 200,
+                  "width" : 200
+                },
+                "tokenId" : "AYCLZYVO-6GLG-A5PB-MYAQ-ZEL7RGEK4UVC",
+                "userName" : "vulcan"
+              },
+              {
+                "assetId" : "1HHJDVLB-68RO-FWUG-RHCK-0RI0RKWJZ0GV",
+                "assetType" : "bitmap",
+                "contentHash" : "DBPQN9QIh8nly1PbufTc",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "time",
+                "size" : {
+                  "height" : 587,
+                  "width" : 1000
+                },
+                "tokenId" : "AXVXSY3K-TBV9-FSZE-PX8Y-BMFJZG1QA7XQ",
+                "userName" : "time"
+              },
+              {
+                "assetId" : "F9JPOM85-5FPI-4FQE-AN5S-ARYF0DPC0VRA",
+                "assetType" : "bitmap",
+                "contentHash" : "r6mlpgZbWywmm2BXzoNJ",
+                "isInternal" : true,
+                "originalDuplicateNames" : 0,
+                "originalName" : "luke",
+                "size" : {
+                  "height" : 200,
+                  "width" : 200
+                },
+                "tokenId" : "AXCT3HOR-3HLN-JYZ1-JYB6-JWW5FLLQUGH5",
+                "userName" : "luke"
+              }
+            ],
+            "vectors" : [
+              {
+                "assetId" : "6fjv51CQdrSgYYRUsKBe",
+                "assetType" : "structure",
+                "contentHash" : "wvBw4Yp5tK5khaAnPEuX",
+                "isInternal" : false,
+                "originalDuplicateNames" : 3,
+                "originalName" : "avatar",
+                "size" : {
+                  "height" : 62,
+                  "width" : 62
+                },
+                "tokenId" : "A6BZPUWF-Z7NU-RKRL-SNOU-P6HYPGP5BCZF",
+                "userName" : "avatar"
+              },
+              {
+                "assetId" : "BZs9Coj4ua7k3BQeuPTK",
+                "assetType" : "structure",
+                "contentHash" : "hGFYwdBUARChPYdXYEcv",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "avatar",
+                "size" : {
+                  "height" : 82,
+                  "width" : 82
+                },
+                "tokenId" : "A66VTMFW-XRGQ-OBV3-CUQK-U7TUUKBN1831",
+                "userName" : "avatar-2"
+              },
+              {
+                "assetId" : "qHGqJORNNHZllSqilolD",
+                "assetType" : "structure",
+                "contentHash" : "RBPi6G1FiVWqW8wzSqNE",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "bg-photo",
+                "size" : {
+                  "height" : 184,
+                  "width" : 185
+                },
+                "tokenId" : "A04GFHSK-9ZZ2-SZN5-TUZO-WKSWJYBMEOOC",
+                "userName" : "bg-photo-7"
+              },
+              {
+                "assetId" : "X7m7b13HPzGUHLfOOFPY",
+                "assetType" : "structure",
+                "contentHash" : "gL9mbXtUllJ4OVZQlz9S",
+                "isInternal" : false,
+                "originalDuplicateNames" : 6,
+                "originalName" : "bg-photo",
+                "size" : {
+                  "height" : 184,
+                  "width" : 185
+                },
+                "tokenId" : "AF1RZNQA-A3GJ-ZCRD-8Q9R-YO4RW1GCLGZL",
+                "userName" : "bg-photo"
+              },
+              {
+                "assetId" : "wuscZPX1IR9Hl7WvLOLe",
+                "assetType" : "structure",
+                "contentHash" : "fvwy8TJDK3h2M0cLSeLx",
+                "isInternal" : false,
+                "originalDuplicateNames" : 4,
+                "originalName" : "active-icon",
+                "size" : {
+                  "height" : 26,
+                  "width" : 28
+                },
+                "tokenId" : "ADT3FMCJ-NLUU-QQGG-AG4T-FQVTBPBJPEF7",
+                "userName" : "active-icon-8"
+              },
+              {
+                "assetId" : "L44HJiGflCnue1ILkF7H",
+                "assetType" : "structure",
+                "contentHash" : "8elqR1AvpZwfFUjDZyo5",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "bg-news-temp",
+                "size" : {
+                  "height" : 200,
+                  "width" : 375.00000000000011
+                },
+                "tokenId" : "APWD8BFG-ONQH-PSHS-JXIJ-KCX3CKT9EO7K",
+                "userName" : "bg-news-temp-2"
+              },
+              {
+                "assetId" : "fe36Wm6B4hP9oGACNzm0",
+                "assetType" : "structure",
+                "contentHash" : "LGr4UGLE60T3juGAi14c",
+                "isInternal" : false,
+                "originalDuplicateNames" : 5,
+                "originalName" : "active-icon",
+                "size" : {
+                  "height" : 26.000072766979965,
+                  "width" : 18
+                },
+                "tokenId" : "AFDPVYGK-QGCP-54HC-SLDG-VMEHXRUK5WUG",
+                "userName" : "active-icon"
+              },
+              {
+                "assetId" : "fzDBKeIG33XmsEJkslBH",
+                "assetType" : "structure",
+                "contentHash" : "HvxSo3bok3mMkAMpgtEn",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "switch",
+                "size" : {
+                  "height" : 32,
+                  "width" : 51
+                },
+                "tokenId" : "ATRRSSDO-NNOL-NHNV-AR6P-XSM2A230RXWZ",
+                "userName" : "switch"
+              },
+              {
+                "assetId" : "hjMvjr1w9ckEqafPG9gm",
+                "assetType" : "structure",
+                "contentHash" : "54NWF0fm2xzOKAu5bTgx",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "photo-2",
+                "size" : {
+                  "height" : 122,
+                  "width" : 122
+                },
+                "tokenId" : "ADKTQPOT-XZWT-XV0K-VMLN-GHUQVQO9MX9Q",
+                "userName" : "photo-2"
+              },
+              {
+                "assetId" : "P9KtVpNh70rCVN1XNXy9",
+                "assetType" : "structure",
+                "contentHash" : "gGU631lIGlOFGYMxofSH",
+                "isInternal" : false,
+                "originalDuplicateNames" : 7,
+                "originalName" : "bg-photo",
+                "size" : {
+                  "height" : 184,
+                  "width" : 184
+                },
+                "tokenId" : "ADRFNYWS-MIF0-W1SO-59AG-RP9XBB0SRZ1K",
+                "userName" : "bg-photo-3"
+              },
+              {
+                "assetId" : "WNyb3hSFX50ZfZEzvx0Q",
+                "assetType" : "structure",
+                "contentHash" : "fy0cvmld6Hfx3CGsDpZc",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "bg-event-temp",
+                "size" : {
+                  "height" : 200,
+                  "width" : 375
+                },
+                "tokenId" : "A9XEMYUV-VQHL-I8JN-P9OO-4ZOY51VXZOZR",
+                "userName" : "bg-event-temp-2"
+              },
+              {
+                "assetId" : "cLlWAgSgudyKOFCrNOlj",
+                "assetType" : "structure",
+                "contentHash" : "99qZ3JfAH69S55NKbv3k",
+                "isInternal" : false,
+                "originalDuplicateNames" : 8,
+                "originalName" : "active-icon",
+                "size" : {
+                  "height" : 34,
+                  "width" : 48
+                },
+                "tokenId" : "AAKGHVGB-EEFK-RSVE-HZLP-GDDGSULYNK3B",
+                "userName" : "active-icon-9"
+              },
+              {
+                "assetId" : "8XUHjET12pfvMhqHcCCb",
+                "assetType" : "structure",
+                "contentHash" : "NvgtSyFWTfDJzW9uK7fb",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "logo",
+                "size" : {
+                  "height" : 120,
+                  "width" : 120
+                },
+                "tokenId" : "ATCCZ9OJ-QW7X-8XBI-LVPO-ZAEKHZ3EQR4D",
+                "userName" : "logo"
+              },
+              {
+                "assetId" : "5y6OtuY5kBowJypI1S1W",
+                "assetType" : "structure",
+                "contentHash" : "kI82zJVtHyjJF5zi9QtR",
+                "isInternal" : false,
+                "originalDuplicateNames" : 1,
+                "originalName" : "bg-news-temp",
+                "size" : {
+                  "height" : 250,
+                  "width" : 375
+                },
+                "tokenId" : "AVC3MCPV-QOTH-KOPP-FXJL-YSVVNFFBUY4N",
+                "userName" : "bg-news-temp"
+              },
+              {
+                "assetId" : "qEtD951wMSJUZwaKnwis",
+                "assetType" : "structure",
+                "contentHash" : "H86VD4lfVYWtqwOXTpoz",
+                "isInternal" : false,
+                "originalDuplicateNames" : 3,
+                "originalName" : "avatar-temp",
+                "size" : {
+                  "height" : 62,
+                  "width" : 62
+                },
+                "tokenId" : "AA8SXK5T-3FQK-3TBZ-XBUC-FAIE4GDDBUW8",
+                "userName" : "avatar-temp-3"
+              },
+              {
+                "assetId" : "jFDqSrUmkNrff87WzSlG",
+                "assetType" : "structure",
+                "contentHash" : "Ym4HXMSYPW3kNZlB2l5V",
+                "isInternal" : false,
+                "originalDuplicateNames" : 3,
+                "originalName" : "bg-photo",
+                "size" : {
+                  "height" : 184,
+                  "width" : 184
+                },
+                "tokenId" : "APZWCMMC-FGTJ-8YMN-O0NX-L6GDCZSYD6B6",
+                "userName" : "bg-photo-6"
+              },
+              {
+                "assetId" : "p7l1YSSwQtJb1WmKgSPN",
+                "assetType" : "structure",
+                "contentHash" : "EgHssQWtr17QRl7BqdZu",
+                "isInternal" : false,
+                "originalDuplicateNames" : 13,
+                "originalName" : "active-icon",
+                "size" : {
+                  "height" : 34,
+                  "width" : 48
+                },
+                "tokenId" : "AIKQMVCS-XY9U-K0NB-HPH0-BLJYSPX9KYI5",
+                "userName" : "active-icon-3"
+              },
+              {
+                "assetId" : "wot3M3YDieN9uL3A27Wr",
+                "assetType" : "structure",
+                "contentHash" : "iFIdAh3yhFHjNZjEBA6z",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "group",
+                "size" : {
+                  "height" : 17,
+                  "width" : 17
+                },
+                "tokenId" : "APIVRQRV-7C5A-LCUV-WMYG-IPU8USQF2YPA",
+                "userName" : "group-2"
+              },
+              {
+                "assetId" : "K69K9ZCL2Asq77Sbe2kb",
+                "assetType" : "structure",
+                "contentHash" : "Q6pjBraaN9Zhy2IdUsmY",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "icon-sign-up",
+                "size" : {
+                  "height" : 19,
+                  "width" : 19
+                },
+                "tokenId" : "AQQTMUHI-VVM0-G0EB-HFPG-DI8XC9OSOY9T",
+                "userName" : "icon-sign-up"
+              },
+              {
+                "assetId" : "2vkwG1XvXH3eJmBIrjVD",
+                "assetType" : "structure",
+                "contentHash" : "AKU8NKbli0BHiF3hzhDs",
+                "isInternal" : false,
+                "originalDuplicateNames" : 2,
+                "originalName" : "active-icon",
+                "size" : {
+                  "height" : 34,
+                  "width" : 48
+                },
+                "tokenId" : "AUWSZE1E-GQCT-PKGE-T9JX-G4GAB1VSTGSM",
+                "userName" : "active-icon-4"
+              },
+              {
+                "assetId" : "8MfrlopWseJnFQCU8Lka",
+                "assetType" : "structure",
+                "contentHash" : "JsDv1DcurTU2UqYhRVig",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "active-icon",
+                "size" : {
+                  "height" : 34,
+                  "width" : 48
+                },
+                "tokenId" : "AG7EZX96-YJOU-6BRK-REUU-TLOZ9OJUQYU6",
+                "userName" : "active-icon-7"
+              },
+              {
+                "assetId" : "0umXXhPVFVOUiQ7UcR0P",
+                "assetType" : "structure",
+                "contentHash" : "wAsU2SLJkGbxbcaq3oxe",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "photo-3",
+                "size" : {
+                  "height" : 122,
+                  "width" : 123
+                },
+                "tokenId" : "AXR5TWAE-DEVF-BYEG-HDCX-DIKCJEZ3SCHE",
+                "userName" : "photo-3"
+              },
+              {
+                "assetId" : "ZzGpyi4OWwVklkiOfwGU",
+                "assetType" : "structure",
+                "contentHash" : "FyBrR7PmVs6M8KWBixpv",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "icon-avatar",
+                "size" : {
+                  "height" : 82,
+                  "width" : 82
+                },
+                "tokenId" : "AJM9EZXS-IHKW-QRSE-D4A2-SBWCY4HRQSUO",
+                "userName" : "icon-avatar"
+              },
+              {
+                "assetId" : "rIPz9189hQkQGMNo8WTA",
+                "assetType" : "structure",
+                "contentHash" : "NR1UBcQI957kJAlxO9HG",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "avatar.astronaut",
+                "size" : {
+                  "height" : 94,
+                  "width" : 94
+                },
+                "tokenId" : "APR43J71-18YK-L4K1-B8FT-IRU1WKLCF2C6",
+                "userName" : "avatarastronaut"
+              },
+              {
+                "assetId" : "o4KTo2v8RFRbY1T4Vnv5",
+                "assetType" : "structure",
+                "contentHash" : "F4zKtGhua1LIBqVv6LJT",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "icon-log-in",
+                "size" : {
+                  "height" : 19,
+                  "width" : 19
+                },
+                "tokenId" : "ATPD8Q4W-6ABA-DYWB-DRFI-4IDV8KKTWTO3",
+                "userName" : "icon-log-in"
+              },
+              {
+                "assetId" : "PoqpQyvlnRef1djSom2O",
+                "assetType" : "structure",
+                "contentHash" : "KVbfactOOEC5KDjBVB3h",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "ui\/avatar\/small-copy-3",
+                "size" : {
+                  "height" : 62,
+                  "width" : 62
+                },
+                "tokenId" : "AKURILZD-F7BN-RBVK-O7FI-XE44PKCBEIS0",
+                "userName" : "ui-avatar-small-copy-3"
+              },
+              {
+                "assetId" : "omDN9kRw92DMtSVfmCCM",
+                "assetType" : "structure",
+                "contentHash" : "lZExHFLhRDA6ZJeGFT32",
+                "isInternal" : false,
+                "originalDuplicateNames" : 5,
+                "originalName" : "bg-photo",
+                "size" : {
+                  "height" : 184,
+                  "width" : 185
+                },
+                "tokenId" : "ALCDVHMG-3CQH-ZASR-DAZB-XA6YY8Y3BTNC",
+                "userName" : "bg-photo-4"
+              },
+              {
+                "assetId" : "JX322GN6qrHINmMNFB3Z",
+                "assetType" : "structure",
+                "contentHash" : "RSH4Rqa1sF54kd3uPYsB",
+                "isInternal" : false,
+                "originalDuplicateNames" : 4,
+                "originalName" : "avatar-temp",
+                "size" : {
+                  "height" : 62,
+                  "width" : 62
+                },
+                "tokenId" : "AQNPISIM-XDTY-MFAM-BBZZ-ZOUOTCHHAACN",
+                "userName" : "avatar-temp-4"
+              },
+              {
+                "assetId" : "YlrFdV63d8MU7CwbBKt6",
+                "assetType" : "structure",
+                "contentHash" : "Jw1rxJRMz3fEvdwRBQae",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "icon-like",
+                "size" : {
+                  "height" : 19,
+                  "width" : 19
+                },
+                "tokenId" : "AIGL1JQ7-2RS9-QXRS-UQ1I-BDTO03DUSHBE",
+                "userName" : "icon-like"
+              },
+              {
+                "assetId" : "QeKm4nkLJYSvQK2VZg1u",
+                "assetType" : "structure",
+                "contentHash" : "caFZYfc31nyCEhJuORlQ",
+                "isInternal" : false,
+                "originalDuplicateNames" : 2,
+                "originalName" : "bg-photo",
+                "size" : {
+                  "height" : 184,
+                  "width" : 184
+                },
+                "tokenId" : "A3WKOGTW-UICY-LMWU-BRPG-EXD54S8YNYUY",
+                "userName" : "bg-photo-5"
+              },
+              {
+                "assetId" : "gfNHA2hH7dBLKM1jqB96",
+                "assetType" : "structure",
+                "contentHash" : "q7XszvhdyNH0am3aIjnt",
+                "isInternal" : false,
+                "originalDuplicateNames" : 2,
+                "originalName" : "avatar",
+                "size" : {
+                  "height" : 62,
+                  "width" : 62
+                },
+                "tokenId" : "A0CDTVNC-AIZH-JHLV-X4BW-AUSAODDTD8MM",
+                "userName" : "avatar-3"
+              },
+              {
+                "assetId" : "CEwzp6Lfme2pdYMx2mhE",
+                "assetType" : "structure",
+                "contentHash" : "jQftdMsruP3e6Tg9eZqA",
+                "isInternal" : false,
+                "originalDuplicateNames" : 1,
+                "originalName" : "bg-event-temp",
+                "size" : {
+                  "height" : 93,
+                  "width" : 93
+                },
+                "tokenId" : "AW7IYMYF-PRYO-AEEG-ZL5C-35ZBYXBIRU08",
+                "userName" : "bg-event-temp"
+              },
+              {
+                "assetId" : "EP5CEWJ1f0z2hB3pGQdf",
+                "assetType" : "structure",
+                "contentHash" : "ChiveyEYLUXJVBlPiJ1v",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "ui\/avatar\/small-copy-2",
+                "size" : {
+                  "height" : 62,
+                  "width" : 62
+                },
+                "tokenId" : "AZDGAQRV-7SAP-A2P7-3YW7-UMSGQTUZX63K",
+                "userName" : "ui-avatar-small-copy-2"
+              },
+              {
+                "assetId" : "xKnvWakWiMdpB9t9FDW1",
+                "assetType" : "structure",
+                "contentHash" : "hOu5s4rc9e865rk95ryR",
+                "isInternal" : false,
+                "originalDuplicateNames" : 3,
+                "originalName" : "active-icon",
+                "size" : {
+                  "height" : 25.00000000000005,
+                  "width" : 23
+                },
+                "tokenId" : "AC6CWZTR-ANE0-JIDT-9DBH-BRIFIZICDP8J",
+                "userName" : "active-icon-6"
+              },
+              {
+                "assetId" : "0Zi7cLMqiWL1kwRMvrEB",
+                "assetType" : "structure",
+                "contentHash" : "lQ73lVAVtGV6NFnxF1ud",
+                "isInternal" : false,
+                "originalDuplicateNames" : 1,
+                "originalName" : "icon-avatar",
+                "size" : {
+                  "height" : 80,
+                  "width" : 80
+                },
+                "tokenId" : "ABAZAHDZ-9IFI-7ACW-LTNR-KHJUZXCZKABJ",
+                "userName" : "icon-avatar-2"
+              },
+              {
+                "assetId" : "ayL8LUIEQSEeXr397gNi",
+                "assetType" : "structure",
+                "contentHash" : "fB6zGqPhYXxYUnC1gdft",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "slide",
+                "size" : {
+                  "height" : 32,
+                  "width" : 51
+                },
+                "tokenId" : "A7OMDMSO-GK1D-TXC2-LPVJ-EYIWBMTOQU3N",
+                "userName" : "slide"
+              },
+              {
+                "assetId" : "WTuuVncwy8jB7yAfKnXA",
+                "assetType" : "structure",
+                "contentHash" : "ukDGZE126eKCwKKsujPK",
+                "isInternal" : false,
+                "originalDuplicateNames" : 1,
+                "originalName" : "bg-photo",
+                "size" : {
+                  "height" : 184,
+                  "width" : 185
+                },
+                "tokenId" : "ACXKAD2M-MY4M-PRWW-AZV6-8JA010JUQIQE",
+                "userName" : "bg-photo-2"
+              },
+              {
+                "assetId" : "s7KKMXaCF59Vq0ISBt5e",
+                "assetType" : "structure",
+                "contentHash" : "NsD49wBLgKG5FlTKZGzR",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "photo-1",
+                "size" : {
+                  "height" : 122,
+                  "width" : 122
+                },
+                "tokenId" : "AQW3FRGG-3XYO-YPNK-NERS-OLH6YCTXPW02",
+                "userName" : "photo-1"
+              },
+              {
+                "assetId" : "T8VKYlMTJWU11n1yrddF",
+                "assetType" : "structure",
+                "contentHash" : "dMup8F9Lo76sD4VI4JE9",
+                "isInternal" : false,
+                "originalDuplicateNames" : 2,
+                "originalName" : "avatar-temp",
+                "size" : {
+                  "height" : 62,
+                  "width" : 62
+                },
+                "tokenId" : "AJIOCB52-YVPL-8C6H-HDQX-5KSXYU3861E4",
+                "userName" : "avatar-temp-2"
+              },
+              {
+                "assetId" : "qOOLMzBHnDKZXTtTVsFk",
+                "assetType" : "structure",
+                "contentHash" : "reek2zGTH8z0RwZK3gc3",
+                "isInternal" : false,
+                "originalDuplicateNames" : 1,
+                "originalName" : "avatar.astronaut",
+                "size" : {
+                  "height" : 62,
+                  "width" : 62
+                },
+                "tokenId" : "AGHKFOBS-XBVC-AFR9-LOZW-LTNKPMG4PC1B",
+                "userName" : "avatarastronaut-2"
+              },
+              {
+                "assetId" : "I1iqkmdGHekU8sXWNlBY",
+                "assetType" : "structure",
+                "contentHash" : "i5uyE5aY2m5rofQhxq2n",
+                "isInternal" : false,
+                "originalDuplicateNames" : 1,
+                "originalName" : "active-icon",
+                "size" : {
+                  "height" : 34,
+                  "width" : 48
+                },
+                "tokenId" : "ACLWFBBK-HDGP-AKV1-KBK5-VTPB6AE25GAW",
+                "userName" : "active-icon-5"
+              },
+              {
+                "assetId" : "FeXlmpxoortvGSnUMfRh",
+                "assetType" : "structure",
+                "contentHash" : "A67XGWVmZlQglg87IarM",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "bg-map-temp",
+                "size" : {
+                  "height" : 613,
+                  "width" : 375
+                },
+                "tokenId" : "A5YBJY5K-OKNN-ZIEX-0FHF-QVQONQGMJYI5",
+                "userName" : "bg-map-temp"
+              },
+              {
+                "assetId" : "DP0iJIj3bk6ZqMw6egVu",
+                "assetType" : "structure",
+                "contentHash" : "HkIroqII63ucSud43LiL",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "icon-event-area",
+                "size" : {
+                  "height" : 185.4314575050762,
+                  "width" : 185.4314575050762
+                },
+                "tokenId" : "AJREIL3S-SAW3-2DES-VKSB-IU6UHTP5BP2C",
+                "userName" : "icon-event-area"
+              },
+              {
+                "assetId" : "3bXzxjr86hkpBcN4oRWt",
+                "assetType" : "structure",
+                "contentHash" : "mL2H3mzqkpb0nrXPRzx0",
+                "isInternal" : false,
+                "originalDuplicateNames" : 4,
+                "originalName" : "group",
+                "size" : {
+                  "height" : 29,
+                  "width" : 29
+                },
+                "tokenId" : "AB8BGLBI-J2ML-2S9G-UZLQ-4WVTSUUE5VRZ",
+                "userName" : "group"
+              },
+              {
+                "assetId" : "bKP0DehYpEzTI35Fjpsc",
+                "assetType" : "structure",
+                "contentHash" : "s6EorZ2nPWssv2VMHMH3",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "avatar-temp",
+                "size" : {
+                  "height" : 124,
+                  "width" : 124
+                },
+                "tokenId" : "AKMICZ2S-IINE-W7RH-4PZV-ZIDGHBWWJXU8",
+                "userName" : "avatar-temp"
+              },
+              {
+                "assetId" : "N3tkMTHGRmyF6ZxhhheB",
+                "assetType" : "structure",
+                "contentHash" : "p5KD7E66ABEdw8eHlKgR",
+                "isInternal" : false,
+                "originalDuplicateNames" : 6,
+                "originalName" : "active-icon",
+                "size" : {
+                  "height" : 34,
+                  "width" : 48
+                },
+                "tokenId" : "ABZOLA6A-VRLV-S7XG-AJKJ-HAUH1A2IGB9P",
+                "userName" : "active-icon-2"
+              },
+              {
+                "assetId" : "pBc7rPGylJ7SAgiUSn9V",
+                "assetType" : "structure",
+                "contentHash" : "BaGdAvqIQOigmt1GZxiZ",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "icon-comment",
+                "size" : {
+                  "height" : 19,
+                  "width" : 19
+                },
+                "tokenId" : "AZKSAUOQ-HTU1-R0BQ-2RJZ-CGQO9PJ804XE",
+                "userName" : "icon-comment"
+              },
+              {
+                "assetId" : "Dy9hznRxTyCuWI3aa84J",
+                "assetType" : "structure",
+                "contentHash" : "o5nSMjwR7wSACSQk7XPL",
+                "isInternal" : false,
+                "originalDuplicateNames" : 0,
+                "originalName" : "path-2",
+                "size" : {
+                  "height" : 14,
+                  "width" : 9
+                },
+                "tokenId" : "AU0L5XEQ-HNGC-M6BF-VWMT-NILF8DVUPCVU",
+                "userName" : "path-2"
+              }
+            ]
+          },
+          "borders" : [
+  
+          ],
+          "colors" : [
+            {
+              "alpha" : 1,
+              "blue" : 1,
+              "comment" : "Primary color of backgrounds, such as screens or larger flat areas",
+              "green" : 1,
+              "name" : "Primary Background",
+              "red" : 1,
+              "tokenId" : "CFMCJ1S7-AORH-VBUR-I4KO-8TJILXIYF7LC"
+            },
+            {
+              "alpha" : 1,
+              "blue" : 0.9803922176361084,
+              "comment" : "Secondary color of backgrounds, such as screens or larger flat areas",
+              "green" : 0.9803922176361084,
+              "name" : "Secondary Background",
+              "red" : 0.9803922176361084,
+              "tokenId" : "CBS8MAME-DLUY-JWB8-LE3D-Z87FF3VVPPPM"
+            },
+            {
+              "alpha" : 1,
+              "blue" : 1,
+              "comment" : "Primary color of app elements such as component fills, separators and others",
+              "green" : 1,
+              "name" : "Primary Element",
+              "red" : 1,
+              "tokenId" : "CRUKRA22-MONU-VK6R-ZHLX-4YLMPUJXVQLM"
+            },
+            {
+              "alpha" : 1,
+              "blue" : 0,
+              "comment" : "Primary color of app elements such as component fills, separators and others",
+              "green" : 0,
+              "name" : "Secondary Element",
+              "red" : 0,
+              "tokenId" : "CDFARZOZ-JRZQ-PV9K-VHFU-0XJH6YPQWLY0"
+            },
+            {
+              "alpha" : 1,
+              "blue" : 0.9803922176361084,
+              "comment" : "Accent color of app elements",
+              "green" : 0.9803922176361084,
+              "name" : "Accent Element",
+              "red" : 0.9803922176361084,
+              "tokenId" : "CLDNRX0W-ILWG-NJAJ-0TRM-RPHSM0PSSF34"
+            },
+            {
+              "alpha" : 1,
+              "blue" : 0,
+              "comment" : "Primary color of app texts",
+              "green" : 0,
+              "name" : "Primary Text",
+              "red" : 0,
+              "tokenId" : "CKJZVP7B-9GJQ-FQ0O-55RY-AZROYEFDLLHS"
+            },
+            {
+              "alpha" : 1,
+              "blue" : 0.43137261271476746,
+              "comment" : "Secondary color of app texts",
+              "green" : 0.40392160415649414,
+              "name" : "Secondary Text",
+              "red" : 0.85098040103912354,
+              "tokenId" : "C9N7SN4P-R4WY-KBXI-BYQR-S7E8XGYUITWL"
+            },
+            {
+              "alpha" : 1,
+              "blue" : 1,
+              "comment" : "Accent color of app texts",
+              "green" : 1,
+              "name" : "Accent Text",
+              "red" : 1,
+              "tokenId" : "CVY9DW5N-I9XK-NKTR-C6Z9-MRMBEZWU3PND"
+            }
+          ],
+          "fonts" : [
+            {
+              "fontFamily" : "Trebuchet MS",
+              "fontName" : "TrebuchetMS",
+              "name" : "MyCustomFont",
+              "nsFontName" : "TrebuchetMS",
+              "nsFontSize" : 18,
+              "tokenId" : "FXSRYXE7-XEWJ-AMVR-VIKF-NSBU4GVCFDHT"
+            }
+          ],
+          "gradients" : [
+            {
+              "elipseLength" : 0,
+              "from" : {
+                "x" : 0.5,
+                "y" : 0
+              },
+              "gradientType" : 0,
+              "name" : "CustomGradient",
+              "stops" : [
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 0,
+                    "green" : 0.90034908056259155,
+                    "red" : 1
+                  },
+                  "position" : 0
+                },
+                {
+                  "color" : {
+                    "alpha" : 1,
+                    "blue" : 1,
+                    "green" : 0,
+                    "red" : 0.034491356462240219
+                  },
+                  "position" : 1
+                }
+              ],
+              "to" : {
+                "x" : 0.5,
+                "y" : 1
+              },
+              "tokenId" : "GUYDE74B-GJQ6-PVGC-BLEP-CGFSIKB708ZW"
+            }
+          ],
+          "opacities" : [
+  
+          ],
+          "radii" : [
+            {
+              "comment" : "Corner radius of specific elements in the app",
+              "name" : "2px Radius",
+              "storage" : 2,
+              "tokenId" : "RZZ9I8BC-3SIQ-NLO5-WMLQ-XARIRFZKWQNX"
+            }
+          ],
+          "shadows" : [
+            {
+              "color" : {
+                "alpha" : 0.20000000298023224,
+                "blue" : 0,
+                "green" : 0,
+                "red" : 0
+              },
+              "comment" : "Primary outlining shadow of app elements",
+              "isEnabled" : true,
+              "name" : "Primary Shadow",
+              "offsetX" : 0,
+              "offsetY" : 20,
+              "opacity" : 0,
+              "radius" : 25,
+              "spread" : 0,
+              "tokenId" : "SB7L3FJJ-OXDU-PYKQ-4FZV-4VXW6V0GXYGT"
+            }
+          ]
+        }
+      },
+      "tabs" : {
+        "TODO" : "TODO"
+      }
+    },
+    "settings" : {
+      "blueprint" : {
+  
+      },
+      "entry" : {
+  
+      },
+      "set" : {
+  
+      }
+    }
+  }
